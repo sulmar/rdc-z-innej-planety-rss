@@ -2,7 +2,13 @@
 
 Kanał RSS audycji **„Z innej planety”** (Polskie Radio RDC) do słuchania w Apple Podcasts.
 
+> Jest to cykl audycji popularyzujący naukę na antenie RDC. Trzygodzinna opowieść „z innej planety”. Nasze studio odwiedzają goście – najczęściej naukowcy. Prowadzimy też Radiowy Instytut Badań Akustycznych, w którym rozkładamy dźwięk na czynniki pierwsze. Natomiast w ostatniej godzinie rozwiązujemy kryminalną zagadkę lateralną. Zaprasza Łukasz Badowski.
+>
+> Więcej na RDC: https://www.rdc.pl/public/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=1SsoWBCT5DJvsOjwPqBg
+
 **Adres kanału:** https://www.sulmar.pl/rdc-z-innej-planety-rss/feed.xml
+
+Kanał jest synchronizowany automatycznie raz w tygodniu, **we wtorek po zakończeniu audycji** (o 23:59).
 
 ## Instalacja
 
@@ -22,7 +28,7 @@ python3 -m venv .venv
 .venv/bin/rdc import-archive --from-page 1 --to-page 40   # archiwum, partiami
 ```
 
-Kanał aktualizuje się automatycznie we wtorki o 23:59 (GitHub Actions). Na żądanie: *Actions → Aktualizacja kanału → Run workflow*.
+Synchronizację poza harmonogramem uruchomisz w GitHub: *Actions → Aktualizacja kanału → Run workflow*.
 
 Publikacja ręczna:
 
