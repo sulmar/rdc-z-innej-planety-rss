@@ -5,7 +5,7 @@
     <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe</link>
     <description>Jest to cykl audycji popularyzujący naukę na antenie RDC. Trzygodzinna opowieść „z innej planety”. Nasze studio odwiedzają goście – najczęściej naukowcy. Prowadzimy też Radiowy Instytut Badań Akustycznych, w którym rozkładamy dźwięk na czynniki pierwsze. Natomiast w ostatniej godzinie rozwiązujemy kryminalną zagadkę lateralną. Zaprasza Łukasz Badowski.</description>
     <language>pl</language>
-    <atom:link href="https://sulmar.github.io/rdc-z-innej-planety-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.sulmar.pl/rdc-z-innej-planety-rss/feed.xml" rel="self" type="application/rss+xml" />
     <lastBuildDate>Tue, 20 Oct 2026 12:00:00 +0200</lastBuildDate>
     <generator>rdc-podcast-feed</generator>
     <itunes:author>Polskie Radio RDC</itunes:author>
