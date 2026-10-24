@@ -5,6 +5,8 @@ Kanał zawiera tylko metadane i odnośniki do oryginalnych plików MP3 na serwer
 
 Dokumentacja: [wizja](docs/vision.md) · [wymagania](docs/requirements.md) · [analiza źródła](docs/analysis.md) · [architektura](docs/architecture.md)
 
+**Adres kanału:** https://www.sulmar.pl/rdc-z-innej-planety-rss/feed.xml
+
 Etap 1 to narzędzie uruchamiane ręcznie. Automatyczna aktualizacja (cron w GitHub Actions) to etap 2.
 
 ## Instalacja
@@ -51,14 +53,16 @@ Kody wyjścia: `0` OK, `1` błąd (parsowanie, sieć, walidacja), `2` źródło 
 GitHub Pages w trybie „Deploy from a branch” serwuje katalog główny gałęzi, więc `public/` publikujemy na osobnej gałęzi `gh-pages`:
 
 ```sh
-FEED_URL=https://<user>.github.io/<repo>/feed.xml .venv/bin/python -m generator run
+FEED_URL=https://www.sulmar.pl/rdc-z-innej-planety-rss/feed.xml .venv/bin/python -m generator run
 git add data public && git commit -m "Aktualizacja kanału"
 git subtree push --prefix public origin gh-pages
 ```
 
 W ustawieniach repozytorium wybierz *Settings → Pages → Deploy from a branch → `gh-pages` / root*.
 
-Na iPhonie: **Podcasty → Biblioteka → ⋯ → Obserwuj program wg adresu URL**, wklej `https://<user>.github.io/<repo>/feed.xml`.
+Na iPhonie: **Podcasty → Biblioteka → ⋯ → Obserwuj program wg adresu URL**, wklej adres kanału.
+
+Konto `sulmar` ma w GitHub Pages własną domenę, więc `sulmar.github.io/...` przekierowuje na `www.sulmar.pl/...`.
 
 ## Testy
 
