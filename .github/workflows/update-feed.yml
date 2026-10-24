@@ -1,0 +1,97 @@
+name: Aktualizacja kanału
+
+on:
+  schedule:
+    # Wtorek 23:59 czasu polskiego. Cron w GitHub Actions działa w UTC,
+    # więc są dwa wpisy (CEST = UTC+2, CET = UTC+1); krok „Pora uruchomienia” wybiera właściwy.
+    - cron: "59 21 * * 2"
+    - cron: "59 22 * * 2"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/update-feed.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: feed
+  cancel-in-progress: false
+
+env:
+  FEED_URL: ${{ vars.FEED_URL || 'https://www.sulmar.pl/rdc-z-innej-planety-rss/feed.xml' }}
+  RDC_BASE_URL: ${{ vars.RDC_BASE_URL || 'https://web.rdc.pl' }}
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Pora uruchomienia
+        id: when
+        env:
+          SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          offset=$(TZ=Europe/Warsaw date +%z)
+          run=true
+          if [ -n "$SCHEDULE" ]; then
+            { [ "$SCHEDULE" = "59 21 * * 2" ] && [ "$offset" = "+0200" ]; } ||
+            { [ "$SCHEDULE" = "59 22 * * 2" ] && [ "$offset" = "+0100" ]; } || run=false
+          fi
+          echo "run=$run" >> "$GITHUB_OUTPUT"
+          echo "Strefa Europe/Warsaw: $offset, harmonogram: ${SCHEDULE:-brak}, uruchomienie: $run"
+
+      - uses: actions/checkout@v4
+        if: steps.when.outputs.run == 'true'
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        if: steps.when.outputs.run == 'true'
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalacja
+        if: steps.when.outputs.run == 'true'
+        run: pip install .
+
+      - name: Nowe odcinki
+        if: steps.when.outputs.run == 'true'
+        run: rdc sync
+
+      - name: Weryfikacja plików MP3
+        id: verify
+        if: steps.when.outputs.run == 'true'
+        continue-on-error: true
+        run: rdc verify --last 20
+
+      - name: Budowa kanału
+        if: steps.when.outputs.run == 'true'
+        run: rdc build
+
+      - name: Commit stanu i kanału
+        if: steps.when.outputs.run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/episodes.json public/feed.xml
+          if ! git diff --cached --quiet; then
+            git commit -m "Aktualizacja kanału $(TZ=Europe/Warsaw date +%Y-%m-%d)"
+          elif [ $(( $(date +%s) - $(git log -1 --format=%ct) )) -gt $(( 50 * 86400 )) ]; then
+            # GitHub wyłącza harmonogram po 60 dniach bez aktywności w repozytorium.
+            git commit --allow-empty -m "Heartbeat: brak nowych odcinków"
+          fi
+          git push origin HEAD:main
+
+      - name: Publikacja na GitHub Pages
+        if: steps.when.outputs.run == 'true'
+        run: |
+          git subtree split --prefix public -b pages-tmp
+          git push origin pages-tmp:gh-pages
+
+      - name: Niedostępne pliki MP3
+        if: steps.when.outputs.run == 'true' && steps.verify.outcome == 'failure'
+        run: |
+          echo "::error::Część plików MP3 nie odpowiada – szczegóły w kroku „Weryfikacja plików MP3”."
+          exit 1

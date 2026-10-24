@@ -3,7 +3,7 @@ import xml.etree.ElementTree as ET
 from rdc import store
 from rdc.__main__ import main
 from rdc.feed import NS, build_feed
-from rdc.sync import sync
+from rdc.sync import sync, verify
 from rdc.validate import validate_feed
 from tests.conftest import FakeClient, fixture
 
@@ -142,3 +142,29 @@ def test_build_keeps_previous_feed_when_new_one_has_fewer_items(config, fixed_no
     assert config.output_path.read_text() == original
     assert main(["build", "--force"]) == 0
     assert main(["validate"]) == 0
+
+
+def test_verify_repairs_missing_mp3_and_keeps_guid(config, fixed_now):
+    state = store.load(config.data_path)
+    sync(FakeClient(config, _pages()), config, state, to_page=1, now=fixed_now)
+    episode = state.episodes["vUUo7CT1dEeqCtvPozVw"]
+    episode.mp3_url = "https://www.rdc.pl/brepo/stary/plik.mp3"
+
+    client = FakeClient(config, _pages(), lengths={episode.mp3_url: None})
+    result = verify(client, config, state, last=3, now=fixed_now)
+
+    assert result.checked == 3
+    assert result.repaired == ["vUUo7CT1dEeqCtvPozVw"] and result.broken == []
+    assert episode.mp3_url.endswith("z-innej-planety-2010.mp3")
+    assert "vUUo7CT1dEeqCtvPozVw" in state.episodes
+
+
+def test_verify_reports_broken_when_episode_page_has_no_working_mp3(config, fixed_now):
+    state = store.load(config.data_path)
+    sync(FakeClient(config, _pages()), config, state, to_page=1, now=fixed_now)
+
+    result = verify(FakeClient(config, _pages(), mp3_length=None), config, state, last=2, now=fixed_now)
+
+    assert result.repaired == []
+    assert result.broken == ["vUUo7CT1dEeqCtvPozVw", "LVHL34Ee9ix5OGapcwGo"]
+    assert all(ep.is_complete for ep in state.episodes.values())  # stary adres zostaje w kanale

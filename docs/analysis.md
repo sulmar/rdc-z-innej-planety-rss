@@ -151,16 +151,16 @@ waliduj (min. 1 item, każdy z enclosure) → w przeciwnym razie nie publikuj
 **Decyzja:** generator działa jako zaplanowany workflow GitHub Actions, a kanał jest publikowany jako plik statyczny na GitHub Pages.
 
 ```
-.github/workflows/update-feed.yml   (cron, np. co 3 h + workflow_dispatch)
-  └─ checkout → uruchom generator → commit data/episodes.json → deploy feed.xml na Pages
-Adres kanału: https://{user}.github.io/{repo}/feed.xml
+.github/workflows/update-feed.yml   (cron: wtorek 23:59 czasu polskiego + workflow_dispatch)
+  └─ checkout → rdc sync/verify/build → commit data/ i public/ → push public/ na gałąź gh-pages
+Adres kanału: https://www.sulmar.pl/rdc-z-innej-planety-rss/feed.xml
 ```
 
 | Aspekt | Uwagi |
 |---|---|
 | Koszt | Darmowe dla repozytorium publicznego. Pages z prywatnego repo wymaga płatnego planu. |
 | Stan | `episodes.json` w repozytorium (commit przez workflow). Daje historię zmian i odporność na awarię. |
-| Harmonogram | `schedule` w Actions bywa opóźniony o kilkanaście minut lub więcej, co mieści się w wymaganiu W1.8 (6 h). |
+| Harmonogram | Raz w tygodniu, wtorek 23:59 (dzień emisji). `schedule` w Actions bywa opóźniony o kilkanaście minut lub więcej. |
 | Wyłączanie crona | W repo publicznym GitHub wyłącza zaplanowane workflow po 60 dniach bez aktywności. Commity `episodes.json` przy nowych odcinkach liczą się jako aktywność. Przy dłuższej przerwie w audycji (np. wakacje) warto dodać okresowy commit „heartbeat” albo monitorować status workflow. |
 | Cloudflare | Runnery GitHub to adresy IP centrów danych, które Cloudflare może traktować surowiej. **Pierwszy krok wdrożenia:** sprawdzić, czy `web.rdc.pl` odpowiada 200 z runnera. |
 | Powiadomienia | Błąd workflow → domyślny e-mail od GitHub (spełnia N4). Dodatkowo krok kończący się błędem, gdy parser zwróci 0 odcinków. |

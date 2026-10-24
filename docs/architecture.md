@@ -19,7 +19,7 @@ flowchart LR
     end
 
     subgraph GH["GitHub"]
-        CRON(["Actions: cron co 3 h<br/>+ uruchomienie ręczne"])
+        CRON(["Actions: cron wtorek 23:59<br/>+ uruchomienie ręczne"])
         GEN["Generator<br/>(Python)"]
         STATE[("data/episodes.json<br/>w repozytorium")]
         PAGES["GitHub Pages<br/>feed.xml"]
@@ -89,7 +89,7 @@ Rozdzielenie **parser** (czysty) i **client** (sieć) pozwala testować parsowan
     "title": "Z innej planety",
     "description": "…",
     "image": "https://…/cover.jpg",
-    "updated_at": "2026-10-24T15:00:00+02:00"
+    "pages_count": 159
   },
   "episodes": {
     "LVHL34Ee9ix5OGapcwGo": {
@@ -122,7 +122,7 @@ Rozdzielenie **parser** (czysty) i **client** (sieć) pozwala testować parsowan
 
 ## 5. Przepływy
 
-### 5.1 Aktualizacja (cyklicznie co 3 h)
+### 5.1 Aktualizacja (co tydzień, wtorek 23:59)
 ```mermaid
 sequenceDiagram
     participant A as GitHub Actions
@@ -143,10 +143,11 @@ sequenceDiagram
         G->>R: HEAD mp3
     end
     G->>S: zapisz stan
-    A->>G: build + validate
+    A->>G: rdc verify (§5.3)
+    A->>G: rdc build (z walidacją)
     alt walidacja OK
-        A->>A: git commit episodes.json (jeśli zmiana)
-        A->>P: deploy public/feed.xml
+        A->>A: git commit episodes.json + feed.xml (jeśli zmiana)
+        A->>P: push public/ → gałąź gh-pages
     else błąd
         A-->>A: workflow failed → e-mail
     end
@@ -159,9 +160,10 @@ Typowy przebieg wysyła 1 zapytanie o listę i 0–2 o odcinki, co spełnia N2.
 - Działa partiami, np. po 40 stron (ok. 440 zapytań, ok. 10 min). Po każdej partii zapisuje stan, więc przerwany import można wznowić.
 - Odcinki już obecne w stanie są pomijane.
 
-### 5.3 Weryfikacja MP3 (raz w tygodniu)
-- Wysyła HEAD dla ostatnich 20 odcinków.
-- Przy kodzie 404 pobiera ponownie stronę odcinka i aktualizuje `mp3_url`, zachowując `guid`.
+### 5.3 Weryfikacja MP3 (w ramach cotygodniowej aktualizacji)
+- `rdc verify --last 20` wysyła HEAD dla 20 najnowszych odcinków.
+- Gdy plik nie odpowiada, pobiera ponownie stronę odcinka i aktualizuje `mp3_url`, zachowując `guid`.
+- Jeśli naprawa się nie uda, kanał i tak jest publikowany, a workflow kończy się błędem na końcu (e-mail).
 
 ## 6. Walidacja przed publikacją
 
@@ -177,32 +179,48 @@ Kanał nie jest publikowany (N3), jeśli zachodzi którykolwiek z warunków:
 ### Repozytorium
 ```
 .github/workflows/
-├── update-feed.yml     cron "0 */3 * * *", workflow_dispatch
-├── verify-mp3.yml      cron tygodniowy
-└── test.yml            push/PR: testy jednostkowe
+├── update-feed.yml     aktualizacja kanału: cron (wtorek 23:59), ręcznie, po zmianie workflow
+└── test.yml            push/PR: testy jednostkowe (Python 3.12 i 3.14)
 data/episodes.json      stan (commitowany przez workflow)
+public/feed.xml         kanał (commitowany; publikowany na gałęzi gh-pages)
 rdc/                    kod
 tests/fixtures/*.html   zapisane próbki stron RDC
-public/                 artefakt Pages (nie commitowany; budowany w workflow)
 docs/                   dokumentacja
 ```
 
+### Harmonogram
+Audycja jest emitowana we wtorki, więc kanał aktualizuje się **raz w tygodniu, we wtorek o 23:59 czasu polskiego**.
+
+Cron w GitHub Actions działa w UTC, a Polska zmienia czas. Workflow ma więc dwa wpisy:
+- `59 21 * * 2` (CEST, UTC+2),
+- `59 22 * * 2` (CET, UTC+1).
+
+Pierwszy krok sprawdza bieżące przesunięcie strefy `Europe/Warsaw` i przepuszcza tylko właściwy wpis, a drugi przebieg kończy się bez zmian. GitHub może opóźnić start zaplanowanego workflow o kilkanaście minut lub więcej.
+
+Workflow uruchamia się też:
+- ręcznie (`workflow_dispatch`, przycisk *Run workflow* w zakładce Actions),
+- po każdej zmianie pliku `update-feed.yml` na `main`, co od razu sprawdza nową wersję.
+
 ### Workflow `update-feed.yml`: kroki
-1. `checkout`, `setup-python` z cache zależności.
-2. **Sprawdzenie dostępności źródła** (pierwsze ryzyko z analizy): `client` rozpoznaje stronę Cloudflare i kończy krok czytelnym błędem.
-3. `sync`, `build`, `validate`.
-4. Commit `data/episodes.json`, tylko gdy plik się zmienił. Autor: `github-actions[bot]`.
-5. `actions/upload-pages-artifact`, potem `actions/deploy-pages`.
-6. `concurrency: feed`, żeby dwa przebiegi nie działały równocześnie.
+1. Pora uruchomienia: wybór wpisu crona zgodnego z czasem polskim.
+2. `checkout` (pełna historia, potrzebna do `git subtree split`), `setup-python` 3.12 z cache, `pip install .`.
+3. `rdc sync`: nowe odcinki. Blokada Cloudflare kończy workflow kodem 2 i czytelnym komunikatem.
+4. `rdc verify --last 20` (§5.3), z `continue-on-error`.
+5. `rdc build`: kanał z walidacją (§6). Błąd walidacji zatrzymuje workflow i nic nie jest publikowane.
+6. Commit `data/episodes.json` i `public/feed.xml`, tylko gdy się zmieniły. Autor: `github-actions[bot]`.
+7. Publikacja: `git subtree split --prefix public` → push na gałąź `gh-pages`. GitHub Pages (tryb *Deploy from a branch*) publikuje ją pod `https://www.sulmar.pl/rdc-z-innej-planety-rss/feed.xml`.
+8. Jeśli w kroku 4 zostały niedostępne pliki MP3, workflow kończy się błędem dopiero po publikacji.
+9. `concurrency: feed`, żeby dwa przebiegi nie działały równocześnie.
 
 ### Uprawnienia
-- `contents: write` (commit stanu), `pages: write`, `id-token: write` (deploy Pages).
-- Brak sekretów: wszystkie źródła są publiczne.
+- `contents: write`: commit stanu na `main` i push na `gh-pages`.
+- Brak sekretów: wszystkie źródła są publiczne, a do zapisu w repozytorium wystarcza `GITHUB_TOKEN`.
 
 ### Ciągłość działania
-- GitHub wyłącza crona po 60 dniach bez aktywności w repo.
-  - Commity stanu przy nowych odcinkach zwykle temu zapobiegają.
-  - Dodatkowo `update-feed.yml` aktualizuje `podcast.updated_at` raz w miesiącu, nawet bez nowych odcinków (commit „heartbeat”).
+- GitHub wyłącza harmonogram po 60 dniach bez aktywności w repozytorium.
+  - Commity z nowymi odcinkami co tydzień zwykle temu zapobiegają.
+  - Jeśli ostatni commit jest starszy niż 50 dni, workflow robi pusty commit „Heartbeat”.
+- Nieudany przebieg: GitHub wysyła e-mail do właściciela repozytorium (N4).
 
 ## 8. Konfiguracja
 

@@ -29,7 +29,7 @@ Oznaczenia: **[APP]** to funkcja Apple Podcasts, **[RSS]** to obowiązek naszego
 | W1.5 | Każdy odcinek ma opis z informacją o gościu i zachowanym formatowaniem (akapity, linki). | [RSS] `description` / `content:encoded` (HTML w CDATA) |
 | W1.6 | Każdy odcinek ma okładkę. Gdy jej brak, wyświetla się okładka audycji. | [RSS] `itunes:image` w `item` i w `channel` |
 | W1.7 | Audycja ma nazwę, opis, prowadzącego i okładkę widoczne na stronie programu. | [RSS] `channel/title`, `description`, `itunes:author`, `itunes:image` (min. 1400×1400) |
-| W1.8 | *(etap 2)* Nowy odcinek pojawia się na liście najpóźniej **6 godzin** po publikacji na rdc.pl. W etapie 1 pojawia się po ręcznym uruchomieniu narzędzia. | [RSS] cykliczna aktualizacja |
+| W1.8 | Nowy odcinek pojawia się na liście po cotygodniowej aktualizacji: **we wtorek o 23:59** (dzień emisji). Wcześniej można ją uruchomić ręcznie. | [RSS] cykliczna aktualizacja |
 | W1.9 | Z odcinka da się przejść do jego strony na rdc.pl. | [RSS] `item/link` |
 | W1.10 | Odcinek, który już widziałem, nie pojawia się ponownie jako nowy ani się nie dubluje. | [RSS] stały `guid` = `episodeId` z RDC |
 | W1.11 | Lista obejmuje archiwum ze skonfigurowanego okresu (domyślnie: wszystkie dostępne odcinki). | [RSS] konfigurowalny zakres |

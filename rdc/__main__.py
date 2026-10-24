@@ -1,4 +1,4 @@
-"""CLI: python -m rdc {sync,import-archive,build,validate,run}."""
+"""CLI: python -m rdc {sync,import-archive,verify,build,validate,run}."""
 
 from __future__ import annotations
 
@@ -13,7 +13,7 @@ from .client import HttpClient, SourceBlockedError
 from .config import Config
 from .feed import build_feed, feed_episodes
 from .parser import ParseError
-from .sync import SyncResult, sync
+from .sync import SyncResult, sync, verify
 from .validate import count_items, validate_feed, validate_file
 
 log = logging.getLogger("rdc")
@@ -55,6 +55,17 @@ def cmd_import_archive(config: Config, args: argparse.Namespace) -> None:
     _report(result)
     pages = state.podcast.pages_count if state.podcast else None
     log.info("W stanie: %d odcinków (stron na rdc.pl: %s)", len(state.episodes), pages or "?")
+
+
+def cmd_verify(config: Config, args: argparse.Namespace) -> None:
+    state = store.load(config.data_path)
+    with _client(config) as client:
+        result = verify(client, config, state, last=args.last)
+    store.save(state, config.data_path)
+    log.info("Sprawdzone pliki MP3: %d, naprawione: %d, niedostępne: %d",
+             result.checked, len(result.repaired), len(result.broken))
+    if result.broken:
+        raise CommandError("Niedostępne pliki MP3: " + ", ".join(result.broken))
 
 
 def cmd_build(config: Config, args: argparse.Namespace) -> None:
@@ -99,6 +110,10 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--from-page", type=int, default=1)
     p.add_argument("--to-page", type=int, help="domyślnie ostatnia strona")
     p.set_defaults(func=cmd_import_archive)
+
+    p = commands.add_parser("verify", help="sprawdź, czy pliki MP3 najnowszych odcinków są dostępne")
+    p.add_argument("--last", type=int, default=20, help="liczba najnowszych odcinków (domyślnie 20)")
+    p.set_defaults(func=cmd_verify)
 
     p = commands.add_parser("build", help="wygeneruj public/feed.xml ze stanu")
     p.add_argument("--force", action="store_true", help="pomiń porównanie z poprzednią liczbą odcinków")

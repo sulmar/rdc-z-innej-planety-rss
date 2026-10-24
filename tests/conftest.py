@@ -19,10 +19,12 @@ def fixture(name: str) -> str:
 class FakeClient:
     """Odpowiada zapisanymi stronami RDC; każdy odcinek dostaje stronę szczegółów z próbki."""
 
-    def __init__(self, config: Config, pages: dict[int, str], mp3_length: int | None = 1000):
+    def __init__(self, config: Config, pages: dict[int, str], mp3_length: int | None = 1000,
+                 lengths: dict[str, int | None] | None = None):
         self.config = config
         self.pages = pages
         self.mp3_length = mp3_length
+        self.lengths = lengths or {}
         self.requests: list[str] = []
 
     def get_text(self, url: str) -> str:
@@ -36,7 +38,7 @@ class FakeClient:
 
     def content_length(self, url: str) -> int | None:
         self.requests.append(f"HEAD {url}")
-        return self.mp3_length
+        return self.lengths.get(url, self.mp3_length)
 
     @property
     def episode_requests(self) -> list[str]:

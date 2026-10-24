@@ -108,6 +108,38 @@ def sync(
     return result
 
 
+@dataclass
+class VerifyResult:
+    checked: int = 0
+    repaired: list[str] = field(default_factory=list)
+    broken: list[str] = field(default_factory=list)
+
+
+def verify(client: Client, config: Config, state: State, *, last: int = 20,
+           now: Callable[[], datetime] = _now) -> VerifyResult:
+    """Sprawdza pliki MP3 `last` najnowszych odcinków (docs/architecture.md §5.3).
+
+    Gdy plik nie odpowiada, pobiera ponownie stronę odcinka i podmienia adres – `guid` zostaje.
+    """
+    result = VerifyResult()
+    complete = [ep for ep in state.episodes.values() if ep.is_complete]
+    complete.sort(key=lambda ep: (ep.date, -ep.day_rank), reverse=True)
+    for episode in complete[:last]:
+        result.checked += 1
+        length = client.content_length(episode.mp3_url)
+        if length:
+            episode.mp3_length = length
+            continue
+        log.warning("Odcinek %s: plik %s nie odpowiada", episode.id, episode.mp3_url)
+        repair = SyncResult()
+        _fetch_details(client, config, episode, repair, now)
+        if repair.completed:
+            result.repaired.append(episode.id)
+        else:
+            result.broken.append(episode.id)
+    return result
+
+
 def _update_podcast(state: State, config: Config, html: str) -> None:
     info = parser.parse_podcast(html, config.media_base_url)
     podcast = state.podcast or Podcast(id=config.podcast_id, slug=config.podcast_slug, title=info.title)
@@ -142,7 +174,7 @@ def _fetch_details(client: Client, config: Config, episode: Episode, result: Syn
     episode.image = details.image or episode.image
     episode.checked_at = now().isoformat()
     result.completed.append(episode.id)
-    log.info("Nowy odcinek %s: %s (%s)", episode.id, episode.title, episode.date)
+    log.info("Odcinek %s: %s (%s) → %s", episode.id, episode.title, episode.date, episode.mp3_url)
 
 
 def _assign_day_ranks(state: State, order: list[str]) -> None:

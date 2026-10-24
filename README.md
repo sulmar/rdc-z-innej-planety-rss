@@ -18,10 +18,13 @@ python3 -m venv .venv
 .venv/bin/rdc sync                                     # nowe odcinki → data/episodes.json
 .venv/bin/rdc build                                    # → public/feed.xml
 .venv/bin/rdc validate                                 # sprawdź kanał
+.venv/bin/rdc verify                                   # sprawdź pliki MP3 najnowszych odcinków
 .venv/bin/rdc import-archive --from-page 1 --to-page 40   # archiwum, partiami
 ```
 
-Publikacja kanału:
+Kanał aktualizuje się automatycznie we wtorki o 23:59 (GitHub Actions). Na żądanie: *Actions → Aktualizacja kanału → Run workflow*.
+
+Publikacja ręczna:
 
 ```sh
 FEED_URL=https://www.sulmar.pl/rdc-z-innej-planety-rss/feed.xml .venv/bin/rdc run
