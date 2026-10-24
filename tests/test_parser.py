@@ -106,3 +106,9 @@ def test_absolute_url_moves_rdc_hosts_to_media_base():
 
 def test_normalize_newlines():
     assert parser.normalize_newlines("<p>a</p>\r\n<p>b</p>\r") == "<p>a</p>\n<p>b</p>\n"
+
+
+def test_episode_page_with_empty_audio_source_has_no_mp3():
+    html = fixture("episode_LVHL34Ee9ix5OGapcwGo.html").replace(
+        'src="/brepo/panel_repo/2026/10/20/wo79bb/z-innej-planety-2010.mp3"', 'src=""')
+    assert parser.parse_episode_page(html, MEDIA).mp3_url is None

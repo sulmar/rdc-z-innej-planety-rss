@@ -185,7 +185,8 @@ def parse_episode_list(html: str, podcast_id: str, media_base_url: str) -> Episo
 
 def parse_episode_page(html: str, media_base_url: str) -> EpisodeDetails:
     soup = _soup(html)
-    source = soup.select_one("video.media_player source[src], audio source[src]")
+    source = next((tag for tag in soup.select("video.media_player source[src], audio source[src]")
+                   if tag["src"].strip()), None)
     image = _meta(soup, "og:image")
     title = _text(soup.select_one(".main_title_value")) or _meta(soup, "og:title")
     return EpisodeDetails(
