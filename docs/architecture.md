@@ -57,10 +57,10 @@ Cel: narzędzie uruchamiane ręcznie, które pobiera listę odcinków audycji i 
 
 **Użycie w etapie 1:**
 ```
-python -m generator sync            # pobierz nowe odcinki → data/episodes.json
-python -m generator build           # data/episodes.json → public/feed.xml
-python -m generator validate        # sprawdź public/feed.xml
-python -m generator run             # sync + build
+python -m rdc sync            # pobierz nowe odcinki → data/episodes.json
+python -m rdc build           # data/episodes.json → public/feed.xml
+python -m rdc validate        # sprawdź public/feed.xml
+python -m rdc run             # sync + build
 ```
 
 **Test na iPhonie w etapie 1:** Apple Podcasts potrzebuje publicznego adresu HTTPS. Wygenerowany `feed.xml` publikujemy ręcznie: commit do repozytorium i `git subtree push --prefix public origin gh-pages`; GitHub Pages w trybie „Deploy from a branch” (`gh-pages` / root), bez własnego workflow. Kanał odświeża się tylko wtedy, gdy ręcznie uruchomimy narzędzie i zrobimy commit.
@@ -92,7 +92,7 @@ Projekt CLI w etapie 1 nie zależy od GitHub Actions. Workflow w etapie 2 tylko 
 ## 3. Komponenty
 
 ```
-generator/
+rdc/
 ├── config.py       konfiguracja (adres bazowy, podcastId, limity)
 ├── client.py       HTTP: User-Agent, timeouty, pauzy, ponowienia
 ├── parser.py       HTML → modele (lista odcinków, strona odcinka, audycja)
@@ -168,7 +168,7 @@ sequenceDiagram
     participant S as episodes.json
     participant P as GitHub Pages
 
-    A->>G: python -m generator sync
+    A->>G: python -m rdc sync
     G->>S: wczytaj stan
     loop strony 1..N, dopóki są nowe odcinki
         G->>R: GET ?active_page=N
@@ -192,7 +192,7 @@ sequenceDiagram
 Typowy przebieg wysyła 1 zapytanie o listę i 0–2 o odcinki, co spełnia N2.
 
 ### 5.2 Import archiwum (jednorazowy)
-- Uruchamiany ręcznie (`workflow_dispatch` z parametrem `pages`) lub lokalnie: `python -m generator import-archive --from-page 1 --to-page 40`.
+- Uruchamiany ręcznie (`workflow_dispatch` z parametrem `pages`) lub lokalnie: `python -m rdc import-archive --from-page 1 --to-page 40`.
 - Działa partiami, np. po 40 stron (ok. 440 zapytań, ok. 10 min). Po każdej partii zapisuje stan, więc przerwany import można wznowić.
 - Odcinki już obecne w stanie są pomijane.
 
@@ -218,7 +218,7 @@ Kanał nie jest publikowany (N3), jeśli zachodzi którykolwiek z warunków:
 ├── verify-mp3.yml      cron tygodniowy
 └── test.yml            push/PR: testy jednostkowe
 data/episodes.json      stan (commitowany przez workflow)
-generator/              kod
+rdc/                    kod
 tests/fixtures/*.html   zapisane próbki stron RDC
 public/                 artefakt Pages (nie commitowany; budowany w workflow)
 docs/                   dokumentacja

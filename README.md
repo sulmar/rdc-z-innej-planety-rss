@@ -21,12 +21,14 @@ python3 -m venv .venv
 ## Użycie
 
 ```sh
-.venv/bin/python -m generator run              # sync + build: najczęstsze użycie
-.venv/bin/python -m generator sync             # nowe odcinki → data/episodes.json
-.venv/bin/python -m generator build            # data/episodes.json → public/feed.xml (z walidacją)
-.venv/bin/python -m generator validate         # sprawdź public/feed.xml
-.venv/bin/python -m generator import-archive --from-page 1 --to-page 40   # archiwum, partiami
+.venv/bin/python -m rdc run              # sync + build: najczęstsze użycie
+.venv/bin/python -m rdc sync             # nowe odcinki → data/episodes.json
+.venv/bin/python -m rdc build            # data/episodes.json → public/feed.xml (z walidacją)
+.venv/bin/python -m rdc validate         # sprawdź public/feed.xml
+.venv/bin/python -m rdc import-archive --from-page 1 --to-page 40   # archiwum, partiami
 ```
+
+Po instalacji to samo dostępne jest jako polecenie `rdc`, np. `.venv/bin/rdc run`.
 
 - `sync` przegląda listę od najnowszych odcinków i kończy na pierwszej stronie bez nowości. Domyślnie przegląda najwyżej 3 strony (`--max-pages`).
 - `import-archive` zapisuje stan po każdej stronie, więc przerwany import można wznowić od następnej strony. Całe archiwum to 159 stron, czyli ok. 1750 zapytań (ok. 45 min przy domyślnej pauzie).
@@ -53,7 +55,7 @@ Kody wyjścia: `0` OK, `1` błąd (parsowanie, sieć, walidacja), `2` źródło 
 GitHub Pages w trybie „Deploy from a branch” serwuje katalog główny gałęzi, więc `public/` publikujemy na osobnej gałęzi `gh-pages`:
 
 ```sh
-FEED_URL=https://www.sulmar.pl/rdc-z-innej-planety-rss/feed.xml .venv/bin/python -m generator run
+FEED_URL=https://www.sulmar.pl/rdc-z-innej-planety-rss/feed.xml .venv/bin/python -m rdc run
 git add data public && git commit -m "Aktualizacja kanału"
 git subtree push --prefix public origin gh-pages
 ```
@@ -70,4 +72,4 @@ Konto `sulmar` ma w GitHub Pages własną domenę, więc `sulmar.github.io/...` 
 .venv/bin/python -m pytest
 ```
 
-Testy działają offline na zapisanych stronach RDC z `tests/fixtures/`. Po zmianie szablonu rdc.pl warto podmienić próbki i poprawić selektory w `generator/parser.py`.
+Testy działają offline na zapisanych stronach RDC z `tests/fixtures/`. Po zmianie szablonu rdc.pl warto podmienić próbki i poprawić selektory w `rdc/parser.py`.

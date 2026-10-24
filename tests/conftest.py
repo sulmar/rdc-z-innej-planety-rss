@@ -5,7 +5,7 @@ from pathlib import Path
 
 import pytest
 
-from generator.config import Config
+from rdc.config import Config
 
 FIXTURES = Path(__file__).parent / "fixtures"
 PODCAST_ID = "fY7TF0S0caRGGuoABNJe"

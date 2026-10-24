@@ -2,8 +2,8 @@ from datetime import date
 
 import pytest
 
-from generator import parser
-from generator.client import is_cloudflare_challenge
+from rdc import parser
+from rdc.client import is_cloudflare_challenge
 from tests.conftest import MEDIA, PODCAST_ID, fixture
 
 

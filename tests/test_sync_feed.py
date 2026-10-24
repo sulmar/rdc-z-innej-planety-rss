@@ -1,10 +1,10 @@
 import xml.etree.ElementTree as ET
 
-from generator import store
-from generator.__main__ import main
-from generator.feed import NS, build_feed
-from generator.sync import sync
-from generator.validate import validate_feed
+from rdc import store
+from rdc.__main__ import main
+from rdc.feed import NS, build_feed
+from rdc.sync import sync
+from rdc.validate import validate_feed
 from tests.conftest import FakeClient, fixture
 
 

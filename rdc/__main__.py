@@ -1,4 +1,4 @@
-"""CLI: python -m generator {sync,import-archive,build,validate,run}."""
+"""CLI: python -m rdc {sync,import-archive,build,validate,run}."""
 
 from __future__ import annotations
 
@@ -16,7 +16,7 @@ from .parser import ParseError
 from .sync import SyncResult, sync
 from .validate import count_items, validate_feed, validate_file
 
-log = logging.getLogger("generator")
+log = logging.getLogger("rdc")
 
 
 class CommandError(RuntimeError):
@@ -86,7 +86,7 @@ def cmd_run(config: Config, args: argparse.Namespace) -> None:
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(prog="python -m generator",
+    parser = argparse.ArgumentParser(prog="rdc",
                                      description="Kanał RSS audycji „Z innej planety” (Polskie Radio RDC).")
     parser.add_argument("-v", "--verbose", action="store_true", help="szczegółowe logi (każde zapytanie)")
     commands = parser.add_subparsers(dest="command", required=True)
