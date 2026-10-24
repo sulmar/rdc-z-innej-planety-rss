@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>Z innej planety</title>
     <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe</link>
     <description>Jest to cykl audycji popularyzujący naukę na antenie RDC. Trzygodzinna opowieść „z innej planety”. Nasze studio odwiedzają goście – najczęściej naukowcy. Prowadzimy też Radiowy Instytut Badań Akustycznych, w którym rozkładamy dźwięk na czynniki pierwsze. Natomiast w ostatniej godzinie rozwiązujemy kryminalną zagadkę lateralną. Zaprasza Łukasz Badowski.</description>
     <language>pl</language>
+    <atom:link href="https://sulmar.github.io/rdc-z-innej-planety-rss/feed.xml" rel="self" type="application/rss+xml" />
     <lastBuildDate>Tue, 20 Oct 2026 12:00:00 +0200</lastBuildDate>
     <generator>rdc-podcast-feed</generator>
     <itunes:author>Polskie Radio RDC</itunes:author>
