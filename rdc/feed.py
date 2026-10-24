@@ -9,6 +9,7 @@ from zoneinfo import ZoneInfo
 
 from .config import Config
 from .models import Episode, State
+from .parser import normalize_newlines
 
 WARSAW = ZoneInfo("Europe/Warsaw")
 # RDC podaje tylko datę publikacji – przyjmujemy południe, a kolejne odcinki dnia cofamy o sekundy.
@@ -92,7 +93,7 @@ def build_feed(state: State, config: Config) -> str:
         _sub(item, "link", config.public_episode_url(episode.id))
         _sub(item, "guid", episode.id, {"isPermaLink": "false"})
         _sub(item, "pubDate", format_datetime(pub_date(episode)))
-        description = episode.description_html or episode.title
+        description = normalize_newlines(episode.description_html or episode.title)
         _sub(item, "description", description)
         _sub(item, "content:encoded", description)
         _sub(item, "enclosure", attrs={"url": episode.mp3_url, "length": str(episode.mp3_length), "type": "audio/mpeg"})

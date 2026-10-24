@@ -102,3 +102,7 @@ def test_absolute_url_moves_rdc_hosts_to_media_base():
     assert parser.absolute_url("https://web.rdc.pl/brepo/x.jpg", MEDIA) == "https://www.rdc.pl/brepo/x.jpg"
     assert parser.absolute_url("/brepo/x.jpg", MEDIA) == "https://www.rdc.pl/brepo/x.jpg"
     assert parser.absolute_url("https://example.com/a", MEDIA) == "https://example.com/a"
+
+
+def test_normalize_newlines():
+    assert parser.normalize_newlines("<p>a</p>\r\n<p>b</p>\r") == "<p>a</p>\n<p>b</p>\n"

@@ -88,6 +88,11 @@ def original_image_url(url: str) -> str:
     return _SIZE_PREFIX_RE.sub(r"/\1", strip_pagespeed(url))
 
 
+def normalize_newlines(text: str) -> str:
+    """Opisy w RDC mają miejscami końce linii CRLF – ujednolicamy do LF."""
+    return text.replace("\r\n", "\n").replace("\r", "\n")
+
+
 def parse_date(value: str) -> date:
     match = re.search(r"(\d{2})\.(\d{2})\.(\d{4})", value)
     if not match:
@@ -136,7 +141,7 @@ def _rewrite_html_urls(fragment: Tag, base_url: str) -> str:
         tag["src"] = absolute_url(strip_pagespeed(tag["src"]), base_url)
     for tag in fragment.find_all(href=True):
         tag["href"] = absolute_url(tag["href"], base_url)
-    return fragment.decode_contents().strip()
+    return normalize_newlines(fragment.decode_contents()).strip()
 
 
 def parse_episode_list(html: str, podcast_id: str, media_base_url: str) -> EpisodeList:
