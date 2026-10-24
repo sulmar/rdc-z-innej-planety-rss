@@ -69,7 +69,7 @@ Rozwiązanie to **automatycznie aktualizowany kanał RSS** (zgodny z Apple Podca
 
 ## Decyzje
 
-- **Etapy:** etap 1 to narzędzie CLI uruchamiane ręcznie, które generuje kanał RSS z listy odcinków. Etap 2 dodaje automatyczną aktualizację (cron). Szczegóły w [architecture.md](architecture.md#1a-etapy-realizacji).
+- **Etapy:** etap 1 to narzędzie CLI uruchamiane ręcznie, które generuje kanał RSS z listy odcinków. Etap 2 dodaje automatyczną aktualizację (cron).
 - **Hosting:** GitHub Pages (publikacja `feed.xml`); w etapie 2 dodatkowo GitHub Actions (cykliczna aktualizacja). Szczegóły w [analysis.md](analysis.md#6-hostowanie-github-actions--github-pages).
 
 ## Otwarte pytania

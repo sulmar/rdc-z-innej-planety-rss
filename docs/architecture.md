@@ -40,43 +40,6 @@ flowchart LR
 
 Najważniejsza cecha: **pliki audio nigdy nie przechodzą przez nasz system** (W2.9). Kanał zawiera tylko metadane i odnośniki.
 
-Diagram pokazuje docelowy stan po etapie 2. Etap 1 obejmuje tylko narzędzie CLI (blok „Generator”), uruchamiane ręcznie.
-
-## 1a. Etapy realizacji
-
-### Etap 1: narzędzie CLI (zrealizowany: 2026-10-24, opis użycia w [README](../README.md))
-Cel: narzędzie uruchamiane ręcznie, które pobiera listę odcinków audycji i generuje poprawny kanał RSS.
-
-| W zakresie | Poza zakresem (etap 2) |
-|---|---|
-| Komponenty z §3: `client`, `parser`, `models`, `store`, `sync`, `feed`, `validate` | Cron w GitHub Actions (§5.1 automatycznie, §5.3) |
-| CLI: `sync`, `build`, `validate`, `import-archive` | Automatyczny deploy na Pages i commit stanu przez workflow |
-| Stan w `data/episodes.json` i wynik w `public/feed.xml` (lokalnie) | Heartbeat przeciw wyłączaniu crona |
-| Testy jednostkowe na próbkach HTML (§10) | Alerty e-mail z nieudanych workflow |
-| Workflow `test.yml` (opcjonalnie) | |
-
-**Użycie w etapie 1:**
-```
-python -m rdc sync            # pobierz nowe odcinki → data/episodes.json
-python -m rdc build           # data/episodes.json → public/feed.xml
-python -m rdc validate        # sprawdź public/feed.xml
-python -m rdc run             # sync + build
-```
-
-**Test na iPhonie w etapie 1:** Apple Podcasts potrzebuje publicznego adresu HTTPS. Wygenerowany `feed.xml` publikujemy ręcznie: commit do repozytorium i `git subtree push --prefix public origin gh-pages`; GitHub Pages w trybie „Deploy from a branch” (`gh-pages` / root), bez własnego workflow. Kanał odświeża się tylko wtedy, gdy ręcznie uruchomimy narzędzie i zrobimy commit.
-
-**Kryterium ukończenia etapu 1:**
-- Po `sync` i `build` kanał przechodzi `validate` i zewnętrzny walidator.
-- Kanał dodany w Apple Podcasts pokazuje listę odcinków (W1) i pozwala je odtwarzać z zapamiętaniem pozycji (W2).
-- Ponowne uruchomienie bez nowych odcinków daje identyczny `feed.xml` (idempotentność).
-
-### Etap 2: automatyzacja
-- Workflow `update-feed.yml` z cronem: §5.1 i §7.
-- Weryfikacja MP3: §5.3.
-- Spełnienie W1.8 (nowy odcinek w ciągu 6 h) i N4 (alerty).
-
-Projekt CLI w etapie 1 nie zależy od GitHub Actions. Workflow w etapie 2 tylko wywołuje te same polecenia, więc nie wymaga zmian w kodzie generatora.
-
 ## 2. Decyzje architektoniczne
 
 | # | Decyzja | Uzasadnienie | Odrzucone alternatywy |
@@ -159,7 +122,7 @@ Rozdzielenie **parser** (czysty) i **client** (sieć) pozwala testować parsowan
 
 ## 5. Przepływy
 
-### 5.1 Aktualizacja (etap 1: ręcznie; etap 2: cyklicznie co 3 h)
+### 5.1 Aktualizacja (cyklicznie co 3 h)
 ```mermaid
 sequenceDiagram
     participant A as GitHub Actions
@@ -196,7 +159,7 @@ Typowy przebieg wysyła 1 zapytanie o listę i 0–2 o odcinki, co spełnia N2.
 - Działa partiami, np. po 40 stron (ok. 440 zapytań, ok. 10 min). Po każdej partii zapisuje stan, więc przerwany import można wznowić.
 - Odcinki już obecne w stanie są pomijane.
 
-### 5.3 Weryfikacja MP3 (etap 2, raz w tygodniu)
+### 5.3 Weryfikacja MP3 (raz w tygodniu)
 - Wysyła HEAD dla ostatnich 20 odcinków.
 - Przy kodzie 404 pobiera ponownie stronę odcinka i aktualizuje `mp3_url`, zachowując `guid`.
 
@@ -209,7 +172,7 @@ Kanał nie jest publikowany (N3), jeśli zachodzi którykolwiek z warunków:
 - XML jest niepoprawny składniowo;
 - strona listy RDC zwróciła 0 odcinków albo stronę Cloudflare. Jest to błąd, a nie „brak nowości”.
 
-## 7. CI/CD i infrastruktura (etap 2)
+## 7. CI/CD i infrastruktura
 
 ### Repozytorium
 ```
