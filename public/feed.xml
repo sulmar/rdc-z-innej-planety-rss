@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Z innej planety</title>
+    <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe</link>
+    <description>Jest to cykl audycji popularyzujący naukę na antenie RDC. Trzygodzinna opowieść „z innej planety”. Nasze studio odwiedzają goście – najczęściej naukowcy. Prowadzimy też Radiowy Instytut Badań Akustycznych, w którym rozkładamy dźwięk na czynniki pierwsze. Natomiast w ostatniej godzinie rozwiązujemy kryminalną zagadkę lateralną. Zaprasza Łukasz Badowski.</description>
+    <language>pl</language>
+    <lastBuildDate>Tue, 20 Oct 2026 12:00:00 +0200</lastBuildDate>
+    <generator>rdc-podcast-feed</generator>
+    <itunes:author>Polskie Radio RDC</itunes:author>
+    <itunes:summary>Jest to cykl audycji popularyzujący naukę na antenie RDC. Trzygodzinna opowieść „z innej planety”. Nasze studio odwiedzają goście – najczęściej naukowcy. Prowadzimy też Radiowy Instytut Badań Akustycznych, w którym rozkładamy dźwięk na czynniki pierwsze. Natomiast w ostatniej godzinie rozwiązujemy kryminalną zagadkę lateralną. Zaprasza Łukasz Badowski.</itunes:summary>
+    <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2025/10/02/2p9tlj/zinnejplanety.png" />
+    <image>
+      <url>https://www.rdc.pl/brepo/panel_repo/2025/10/02/2p9tlj/zinnejplanety.png</url>
+      <title>Z innej planety</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe</link>
+    </image>
+    <itunes:category text="Science" />
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:block>Yes</itunes:block>
+    <item>
+      <title>Zagadka lateralna</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=vUUo7CT1dEeqCtvPozVw</link>
+      <guid isPermaLink="false">vUUo7CT1dEeqCtvPozVw</guid>
+      <pubDate>Tue, 20 Oct 2026 12:00:00 +0200</pubDate>
+      <description>&lt;p&gt;W chemicznym nastroju witamy wszystkich zainteresowanych dzisiejszą zagadką lateralną! &lt;/p&gt;
+&lt;p&gt;Pod literkami A do F kryje się sześć substancji chemicznych -- czystych związków lub ewentualnie mieszanin (w co najmniej jednym wypadku). Niektóre z nich znane są w miarę powszechnie... inne -- być może nieco mniej. Tak czy siak, w odpowiedzi należy podać nazwę oraz przynajmniej jedno zastosowanie.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://www.rdc.pl/brepo/panel_repo/2026/10/20/lrekki/contain-1000-1000-max-2026-10-20-chemia.png" style="width: 100%;"/&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;W chemicznym nastroju witamy wszystkich zainteresowanych dzisiejszą zagadką lateralną! &lt;/p&gt;
+&lt;p&gt;Pod literkami A do F kryje się sześć substancji chemicznych -- czystych związków lub ewentualnie mieszanin (w co najmniej jednym wypadku). Niektóre z nich znane są w miarę powszechnie... inne -- być może nieco mniej. Tak czy siak, w odpowiedzi należy podać nazwę oraz przynajmniej jedno zastosowanie.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://www.rdc.pl/brepo/panel_repo/2026/10/20/lrekki/contain-1000-1000-max-2026-10-20-chemia.png" style="width: 100%;"/&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/10/20/hy1hxq/zagadka-lateralna-2010.mp3" length="69321153" type="audio/mpeg" />
+      <itunes:duration>00:48:08</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2026/10/20/lrekki/anchor_photo_front_1200x630_2026-10-20-chemia.png" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Omawiamy: Nobel z chemii</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=LVHL34Ee9ix5OGapcwGo</link>
+      <guid isPermaLink="false">LVHL34Ee9ix5OGapcwGo</guid>
+      <pubDate>Tue, 20 Oct 2026 11:59:59 +0200</pubDate>
+      <description>&lt;p&gt;Kenso Soai i Henri B. Kagan dokonali odkryć, które pozwoliły zoptymalizować reakcje chemiczne służące do wytwarzania farmaceutyków, substancji smakowych i zapachowych oraz nowych materiałów.&lt;/p&gt;
+&lt;p&gt;Gość: prof. dr hab. Tomasz Borowski, Instytut Katalizy i Fizykochemii Powierzchni im. Jerzego Habera Polskiej Akademii Nauk.&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Kenso Soai i Henri B. Kagan dokonali odkryć, które pozwoliły zoptymalizować reakcje chemiczne służące do wytwarzania farmaceutyków, substancji smakowych i zapachowych oraz nowych materiałów.&lt;/p&gt;
+&lt;p&gt;Gość: prof. dr hab. Tomasz Borowski, Instytut Katalizy i Fizykochemii Powierzchni im. Jerzego Habera Polskiej Akademii Nauk.&lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/10/20/wo79bb/z-innej-planety-2010.mp3" length="73802470" type="audio/mpeg" />
+      <itunes:duration>00:51:15</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2025/05/20/2nw5rh/anchor_photo_front_1200x630_mikrofon-rdc-1.jpg" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Zagadki lateralne</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=WSN3yhEqgibxuG6tp8HL</link>
+      <guid isPermaLink="false">WSN3yhEqgibxuG6tp8HL</guid>
+      <pubDate>Tue, 13 Oct 2026 12:00:00 +0200</pubDate>
+      <description>&lt;p&gt;Dzisiejszą zagadką powracamy na łono miasta stołecznego Warszawy. Nieprzypadkowo – albowiem nasza tresowana sztuczna inteligencja zajęła się nie tyle warszawską topografią, co… toponimią!&lt;/p&gt;
+&lt;p&gt;Dzisiejsze sześć zagadek -- tradycyjnie ukrywających się pod postacią ilustracji oznaczonych literami od A do F -- ma naturę tyleż lateralną, co językową. &lt;/p&gt;
+&lt;p&gt;Jakież to nazwy miejscowe, skąd się wzięły i co oznaczają? Tę zagadkę pozostawiamy właśnie Państwa uprzejmej uwadze!&lt;/p&gt;
+&lt;p&gt;Telefon na wszelki wypadek przypominamy – 22 645 90 90.&lt;/p&gt;
+&lt;p&gt;Pozdrawiamy!&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Dzisiejszą zagadką powracamy na łono miasta stołecznego Warszawy. Nieprzypadkowo – albowiem nasza tresowana sztuczna inteligencja zajęła się nie tyle warszawską topografią, co… toponimią!&lt;/p&gt;
+&lt;p&gt;Dzisiejsze sześć zagadek -- tradycyjnie ukrywających się pod postacią ilustracji oznaczonych literami od A do F -- ma naturę tyleż lateralną, co językową. &lt;/p&gt;
+&lt;p&gt;Jakież to nazwy miejscowe, skąd się wzięły i co oznaczają? Tę zagadkę pozostawiamy właśnie Państwa uprzejmej uwadze!&lt;/p&gt;
+&lt;p&gt;Telefon na wszelki wypadek przypominamy – 22 645 90 90.&lt;/p&gt;
+&lt;p&gt;Pozdrawiamy!&lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/10/13/noxzxy/zagadki-lateralne-1310.mp3" length="119640000" type="audio/mpeg" />
+      <itunes:duration>00:49:51</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2025/05/20/2nw5rh/anchor_photo_front_1200x630_mikrofon-rdc-1.jpg" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Omawiamy: Nobel z medycyny za optogenetykę!</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=uk0CQLlXkurBu5CW6SzJ</link>
+      <guid isPermaLink="false">uk0CQLlXkurBu5CW6SzJ</guid>
+      <pubDate>Tue, 13 Oct 2026 11:59:59 +0200</pubDate>
+      <description>&lt;p&gt;Prof. Ewelina Knapska jest neurobiolożką, kierowniczką Pracowni Neurobiologii Emocji w Instytucie Biologii Doświadczalnej im. Marcelego Nenckiego Polskiej Akademii Nauk oraz współtwórczynią Centrum Doskonałości BRAINCITY.&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Prof. Ewelina Knapska jest neurobiolożką, kierowniczką Pracowni Neurobiologii Emocji w Instytucie Biologii Doświadczalnej im. Marcelego Nenckiego Polskiej Akademii Nauk oraz współtwórczynią Centrum Doskonałości BRAINCITY.&lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/10/13/zcugcl/z-innej-planety-1-13102026.mp3" length="106981440" type="audio/mpeg" />
+      <itunes:duration>00:44:35</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2025/05/20/2nw5rh/anchor_photo_front_1200x630_mikrofon-rdc-1.jpg" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Zagadki lateralne</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=mDI93OmeqN0WVkdNc0YI</link>
+      <guid isPermaLink="false">mDI93OmeqN0WVkdNc0YI</guid>
+      <pubDate>Tue, 06 Oct 2026 12:00:00 +0200</pubDate>
+      <description>&lt;p&gt;Dzisiejszą zagadką powracamy na łono miasta stołecznego Warszawy. Ale nieprzypadkowo – albowiem nasza tresowana sztuczna inteligencja zajęła się nie tyle warszawską topografią, co… toponimią!&lt;/p&gt;
+&lt;p&gt;Dzisiejsze sześć zagadek – tradycyjnie ukrywających się pod postacią &lt;strong&gt;ilustracji oznaczonych literami od A do F&lt;/strong&gt; – ma naturę tyleż lateralną, co językową. &lt;/p&gt;
+&lt;p&gt;Jakież to nazwy miejscowe, skąd się wzięły i co oznaczają? Tę zagadkę pozostawiamy właśnie Państwa uprzejmej uwadze!&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Dzisiejszą zagadką powracamy na łono miasta stołecznego Warszawy. Ale nieprzypadkowo – albowiem nasza tresowana sztuczna inteligencja zajęła się nie tyle warszawską topografią, co… toponimią!&lt;/p&gt;
+&lt;p&gt;Dzisiejsze sześć zagadek – tradycyjnie ukrywających się pod postacią &lt;strong&gt;ilustracji oznaczonych literami od A do F&lt;/strong&gt; – ma naturę tyleż lateralną, co językową. &lt;/p&gt;
+&lt;p&gt;Jakież to nazwy miejscowe, skąd się wzięły i co oznaczają? Tę zagadkę pozostawiamy właśnie Państwa uprzejmej uwadze!&lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/10/06/dzloxy/zagadki-lateralne-06102026.mp3" length="97615680" type="audio/mpeg" />
+      <itunes:duration>00:40:40</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2025/05/20/2nw5rh/anchor_photo_front_1200x630_mikrofon-rdc-1.jpg" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Digitalizacja "Słownika Warszawskiego"</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=GhLceTb1SIeV1vlevcjE</link>
+      <guid isPermaLink="false">GhLceTb1SIeV1vlevcjE</guid>
+      <pubDate>Tue, 06 Oct 2026 11:59:59 +0200</pubDate>
+      <description>&lt;p&gt;"Słownik Warszawski" – ośmiotomowy słownik języka polskiego opracowany w latach 1900–1927. Retrodigitalizacji słownika podjął się absolwent UAM w Poznaniu, dr nauk filologicznych Mirosław Koziarski, który jest gościem Polskiego Radia RDC.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;"Słownik Warszawski" – ośmiotomowy słownik języka polskiego opracowany w latach 1900–1927. Retrodigitalizacji słownika podjął się absolwent UAM w Poznaniu, dr nauk filologicznych Mirosław Koziarski, który jest gościem Polskiego Radia RDC.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/10/06/d7ozna/z-innej-planety-1-0610026.mp3" length="114458880" type="audio/mpeg" />
+      <itunes:duration>00:47:41</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2025/05/20/2nw5rh/anchor_photo_front_1200x630_mikrofon-rdc-1.jpg" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Zagadka lateralna</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=bs8jDLedckdZqblgxjqJ</link>
+      <guid isPermaLink="false">bs8jDLedckdZqblgxjqJ</guid>
+      <pubDate>Tue, 29 Sep 2026 12:00:00 +0200</pubDate>
+      <description>&lt;p&gt;W dzisiejszej zagadce pochylamy się nad tematem tego, co lata nad naszymi głowami. To znaczy AI się pochyla. O ile można tak powiedzieć... W końcu nawet nie wiemy, czy ma jakiś kręgosłup... No ale skrzydeł też nie ma, a lotna jednak jest! W każdym razie z polskimi ptakami poradziła sobie jako tako. A może nawet całkiem nieźle?&lt;/p&gt;
+&lt;p&gt;Efektem tego radzenia sobie jest sześć lateralnych obrazków, ukrywających w sobie sześciu przedstawicieli polskiej awifauny... oraz polskiego języka -- bowiem wspólnym mianownikiem dzisiejszych haseł (od A do F) jest to, że nie da się ich napisać bez typowo polskich liter.&lt;/p&gt;
+&lt;p&gt;Do zgadywania zapraszamy po godzinie 21:00, a nasz numer telefonu to nieodmiennie &lt;span class="Object" id="OBJ_PREFIX_DWT8966_com_zimbra_phone" role="link"&gt;22 645 90 90&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;P.S. Jest chyba jedna, jak teraz patrzę na obrazki, pomyłka! Postać na obrazku B powinna wstawać prawą nogą... Ale to pewnie dlatego, że AI nie zna się na polskiej literaturze...&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://www.rdc.pl/brepo/panel_repo/2026/09/29/zvmozi/contain-1000-1000-max-2026-09-29-ptaki.png" style="width: 100%;"/&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;W dzisiejszej zagadce pochylamy się nad tematem tego, co lata nad naszymi głowami. To znaczy AI się pochyla. O ile można tak powiedzieć... W końcu nawet nie wiemy, czy ma jakiś kręgosłup... No ale skrzydeł też nie ma, a lotna jednak jest! W każdym razie z polskimi ptakami poradziła sobie jako tako. A może nawet całkiem nieźle?&lt;/p&gt;
+&lt;p&gt;Efektem tego radzenia sobie jest sześć lateralnych obrazków, ukrywających w sobie sześciu przedstawicieli polskiej awifauny... oraz polskiego języka -- bowiem wspólnym mianownikiem dzisiejszych haseł (od A do F) jest to, że nie da się ich napisać bez typowo polskich liter.&lt;/p&gt;
+&lt;p&gt;Do zgadywania zapraszamy po godzinie 21:00, a nasz numer telefonu to nieodmiennie &lt;span class="Object" id="OBJ_PREFIX_DWT8966_com_zimbra_phone" role="link"&gt;22 645 90 90&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;P.S. Jest chyba jedna, jak teraz patrzę na obrazki, pomyłka! Postać na obrazku B powinna wstawać prawą nogą... Ale to pewnie dlatego, że AI nie zna się na polskiej literaturze...&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://www.rdc.pl/brepo/panel_repo/2026/09/29/zvmozi/contain-1000-1000-max-2026-09-29-ptaki.png" style="width: 100%;"/&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/09/29/lx5dar/zagadka-lateralna-2909.mp3" length="75425080" type="audio/mpeg" />
+      <itunes:duration>00:52:23</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2026/09/29/zvmozi/anchor_photo_front_1200x630_2026-09-29-ptaki.png" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Wykrywanie i dokładne lokalizowanie dronów</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=OrkxWG3JDyxPStIJ74Fk</link>
+      <guid isPermaLink="false">OrkxWG3JDyxPStIJ74Fk</guid>
+      <pubDate>Tue, 29 Sep 2026 11:59:59 +0200</pubDate>
+      <description>&lt;p&gt;Wykrywanie i dokładne lokalizowanie dronów na podstawie wydawanych przez nie dźwięków - nad tym pracują naukowcy na Politechnice Łódzkiej.&lt;/p&gt;
+&lt;p&gt;Gościem był dr inż. Maciej Podsędkowski - Politechnika Łódzka, Wydział Mechaniczny.&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Wykrywanie i dokładne lokalizowanie dronów na podstawie wydawanych przez nie dźwięków - nad tym pracują naukowcy na Politechnice Łódzkiej.&lt;/p&gt;
+&lt;p&gt;Gościem był dr inż. Maciej Podsędkowski - Politechnika Łódzka, Wydział Mechaniczny.&lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/09/29/kgugzu/z-innej-planety-2909.mp3" length="75913280" type="audio/mpeg" />
+      <itunes:duration>00:52:43</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2025/05/20/2nw5rh/anchor_photo_front_1200x630_mikrofon-rdc-1.jpg" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Zagadki lateralne</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=HAyQt44ATidWvG59l2Lr</link>
+      <guid isPermaLink="false">HAyQt44ATidWvG59l2Lr</guid>
+      <pubDate>Tue, 22 Sep 2026 12:00:00 +0200</pubDate>
+      <description>Zagadki lateralne</description>
+      <content:encoded>Zagadki lateralne</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/09/22/szwnky/zagadki-lateralne-22092026.mp3" length="114012480" type="audio/mpeg" />
+      <itunes:duration>00:47:30</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2025/05/20/2nw5rh/anchor_photo_front_1200x630_mikrofon-rdc-1.jpg" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>"Niemowlęta pięknie pachną swoim rodzicom, nastolatki nie" i "humorystyczny nobel"</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=b9CsqBfLz8yOL0bOAcIX</link>
+      <guid isPermaLink="false">b9CsqBfLz8yOL0bOAcIX</guid>
+      <pubDate>Tue, 22 Sep 2026 11:59:59 +0200</pubDate>
+      <description>&lt;p&gt;Prof. Agnieszka Sorokowska z Uniwersytetu Wrocławskiego za badanie zatytułowane "Babies Smell Wonderful to Their Parents, Teenagers Do Not (…)", czyli "Niemowlęta pięknie pachną swoim rodzicom, nastolatki nie" otrzymała nagrodę Ig Nobla.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Prof. Agnieszka Sorokowska z Uniwersytetu Wrocławskiego za badanie zatytułowane "Babies Smell Wonderful to Their Parents, Teenagers Do Not (…)", czyli "Niemowlęta pięknie pachną swoim rodzicom, nastolatki nie" otrzymała nagrodę Ig Nobla.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/09/22/6caldo/z-innej-planety-220926.mp3" length="110061120" type="audio/mpeg" />
+      <itunes:duration>00:45:52</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2025/05/20/2nw5rh/anchor_photo_front_1200x630_mikrofon-rdc-1.jpg" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>O badaniach nad zwierzętami w starożytności</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=73AmloiAdO9LPxeE6V3t</link>
+      <guid isPermaLink="false">73AmloiAdO9LPxeE6V3t</guid>
+      <pubDate>Tue, 08 Sep 2026 12:00:00 +0200</pubDate>
+      <description>&lt;p&gt;Goście:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;dyrektor PAN Muzeum Ziemi w Warszawie, dr hab. Błażej Błażejowski, prof. PAN&lt;/li&gt;
+&lt;li&gt;Marzena Ożarek-Szilke, prezes Zarządu Międzynarodowa Fundacja Mummy Research Center, Członkini Komitetu Organizacyjnego ISAAE 2027&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <content:encoded>&lt;p&gt;Goście:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;dyrektor PAN Muzeum Ziemi w Warszawie, dr hab. Błażej Błażejowski, prof. PAN&lt;/li&gt;
+&lt;li&gt;Marzena Ożarek-Szilke, prezes Zarządu Międzynarodowa Fundacja Mummy Research Center, Członkini Komitetu Organizacyjnego ISAAE 2027&lt;/li&gt;
+&lt;/ul&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/09/08/owrgfs/z-innej-planety-1-08092026.mp3" length="104865600" type="audio/mpeg" />
+      <itunes:duration>00:43:42</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2025/05/20/2nw5rh/anchor_photo_front_1200x630_mikrofon-rdc-1.jpg" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Zagadka lateralna</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=YubR96LZNED1EyZuYxX0</link>
+      <guid isPermaLink="false">YubR96LZNED1EyZuYxX0</guid>
+      <pubDate>Tue, 01 Sep 2026 12:00:00 +0200</pubDate>
+      <description>&lt;p&gt;No więc dzisiejsza &lt;span class="ZmSearchResult" id="DWT5906"&gt;&lt;span class="ZmSearchResult" id="DWT5914"&gt;zagadka&lt;/span&gt;&lt;/span&gt; lateralna... Hmmm... Mam wrażenie, że już to kiedyś pisałem... Ano tak! Bo co tydzień jest &lt;span class="ZmSearchResult" id="DWT5908"&gt;&lt;span class="ZmSearchResult" id="DWT5916"&gt;zagadka&lt;/span&gt;&lt;/span&gt; lateralna!&lt;/p&gt;
+&lt;p&gt;No więc w tym tygodniu &lt;span class="ZmSearchResult" id="DWT5910"&gt;&lt;span class="ZmSearchResult" id="DWT5918"&gt;zagadka&lt;/span&gt;&lt;/span&gt; lateralna może się wydawać jakby dziwnie znajoma. Bo też dotyczy... turystyki? Można by tak powiedzieć. W każdym razie miejsc dotyczy. Znanych - miejmy nadzieję - każdemu.&lt;/p&gt;
+&lt;p&gt;Ale żeby nie było za prosto, miejsca te wybraliśmy według pewnego klucza. Otóż są to zabytki techniki przemysłu z terenu całej Polski.&lt;/p&gt;
+&lt;p&gt;Jeśli macie Państwo wrażenie, że już coś takiego gdzieś widzieliście, tooo... pewnie znaczy, że w Waszych głowach doszło do lateralnego skojarzenia i kiełkuje w nich już być może odpowiedź!&lt;/p&gt;
+&lt;p&gt;Powodzenia!&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;No więc dzisiejsza &lt;span class="ZmSearchResult" id="DWT5906"&gt;&lt;span class="ZmSearchResult" id="DWT5914"&gt;zagadka&lt;/span&gt;&lt;/span&gt; lateralna... Hmmm... Mam wrażenie, że już to kiedyś pisałem... Ano tak! Bo co tydzień jest &lt;span class="ZmSearchResult" id="DWT5908"&gt;&lt;span class="ZmSearchResult" id="DWT5916"&gt;zagadka&lt;/span&gt;&lt;/span&gt; lateralna!&lt;/p&gt;
+&lt;p&gt;No więc w tym tygodniu &lt;span class="ZmSearchResult" id="DWT5910"&gt;&lt;span class="ZmSearchResult" id="DWT5918"&gt;zagadka&lt;/span&gt;&lt;/span&gt; lateralna może się wydawać jakby dziwnie znajoma. Bo też dotyczy... turystyki? Można by tak powiedzieć. W każdym razie miejsc dotyczy. Znanych - miejmy nadzieję - każdemu.&lt;/p&gt;
+&lt;p&gt;Ale żeby nie było za prosto, miejsca te wybraliśmy według pewnego klucza. Otóż są to zabytki techniki przemysłu z terenu całej Polski.&lt;/p&gt;
+&lt;p&gt;Jeśli macie Państwo wrażenie, że już coś takiego gdzieś widzieliście, tooo... pewnie znaczy, że w Waszych głowach doszło do lateralnego skojarzenia i kiełkuje w nich już być może odpowiedź!&lt;/p&gt;
+&lt;p&gt;Powodzenia!&lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/09/01/tf3kmf/zagadka-lateralna-109.mp3" length="72378179" type="audio/mpeg" />
+      <itunes:duration>00:50:16</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2026/09/01/bkdpfh/anchor_photo_front_1200x630_2026-09-01-zabytki-techniki.png" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Prof. Krystian Barzykowski</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=k9Jo0PAyDBKlsgmcODef</link>
+      <guid isPermaLink="false">k9Jo0PAyDBKlsgmcODef</guid>
+      <pubDate>Tue, 01 Sep 2026 11:59:59 +0200</pubDate>
+      <description>&lt;p&gt;Déjà vu jest przedmiotem badań kierowanych przez prof. Krystiana Barzykowskiego z Instytutu Psychologii UJ oraz prof. Chrisa Moulina z Laboratoire de Psychologie et NeuroCognition (LPNC), Université Grenoble Alpes. Otrzymali za to Polsko-Francuską Nagrodę Naukową im. Marii Skłodowskiej-Curie i Pierre’a Curie. O szczegółach badań rozmawiamy z naukowcem z Uniwersytetu Jagiellońskiego.&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Déjà vu jest przedmiotem badań kierowanych przez prof. Krystiana Barzykowskiego z Instytutu Psychologii UJ oraz prof. Chrisa Moulina z Laboratoire de Psychologie et NeuroCognition (LPNC), Université Grenoble Alpes. Otrzymali za to Polsko-Francuską Nagrodę Naukową im. Marii Skłodowskiej-Curie i Pierre’a Curie. O szczegółach badań rozmawiamy z naukowcem z Uniwersytetu Jagiellońskiego.&lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/09/01/5aljkd/z-innej-planety-109.mp3" length="76735880" type="audio/mpeg" />
+      <itunes:duration>00:53:17</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2025/05/20/2nw5rh/anchor_photo_front_1200x630_mikrofon-rdc-1.jpg" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Zagadka lateralna</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=bOA5vx2EW5GPHFjXuPT6</link>
+      <guid isPermaLink="false">bOA5vx2EW5GPHFjXuPT6</guid>
+      <pubDate>Tue, 25 Aug 2026 12:00:00 +0200</pubDate>
+      <description>&lt;p&gt;Urlop się skończył, czas wrócić do zagadek lateralnych! Chociaż po ostatnich wydarzeniach wyskakiwanie tutaj ze sztuczną inteligencją to trochę strach… Co prawda mieć 200 tysięcy, a nie mieć 200 tysięcy to razem 400 tysięcy… ale o takich budżetach możemy sobie tylko pomarzyć…&lt;/p&gt;
+&lt;p&gt;Natomiast co się tyczy rozrywek niskobudżetowych, zwłaszcza w zakresie turystyki, to mamy dziś dla Państwa sześć propozycji! Mazowieckich propozycji… w sensie oczywiście czysto ogólnym – oburzonych historyków prosimy o cierpliwość! Nasza tresowana AI dopiero uczy się rozróżniać granice województwa mazowieckiego od granic historycznych ziem mazowieckich…&lt;/p&gt;
+&lt;p&gt;W każdym razie – pod literami od A do F kryją się potencjalne perły mazowieckiej turystyki. Jest coś dla miłośników historii i amatorów przyrody. Zachęcamy do zgadywania!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://www.rdc.pl/brepo/panel_repo/2026/08/25/cvfkf6/contain-1500-1500-max-2026-08-25-turystyka-mazowsza.png" style="width: 100%;"/&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Urlop się skończył, czas wrócić do zagadek lateralnych! Chociaż po ostatnich wydarzeniach wyskakiwanie tutaj ze sztuczną inteligencją to trochę strach… Co prawda mieć 200 tysięcy, a nie mieć 200 tysięcy to razem 400 tysięcy… ale o takich budżetach możemy sobie tylko pomarzyć…&lt;/p&gt;
+&lt;p&gt;Natomiast co się tyczy rozrywek niskobudżetowych, zwłaszcza w zakresie turystyki, to mamy dziś dla Państwa sześć propozycji! Mazowieckich propozycji… w sensie oczywiście czysto ogólnym – oburzonych historyków prosimy o cierpliwość! Nasza tresowana AI dopiero uczy się rozróżniać granice województwa mazowieckiego od granic historycznych ziem mazowieckich…&lt;/p&gt;
+&lt;p&gt;W każdym razie – pod literami od A do F kryją się potencjalne perły mazowieckiej turystyki. Jest coś dla miłośników historii i amatorów przyrody. Zachęcamy do zgadywania!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://www.rdc.pl/brepo/panel_repo/2026/08/25/cvfkf6/contain-1500-1500-max-2026-08-25-turystyka-mazowsza.png" style="width: 100%;"/&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/08/26/ftmb84/zagadki-lateralne-2608.mp3" length="123772800" type="audio/mpeg" />
+      <itunes:duration>00:51:34</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2025/05/20/2nw5rh/anchor_photo_front_1200x630_mikrofon-rdc-1.jpg" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Jak walczyć z prokastynacją?</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=jzA6UrZKosG8EvqBs4s8</link>
+      <guid isPermaLink="false">jzA6UrZKosG8EvqBs4s8</guid>
+      <pubDate>Tue, 25 Aug 2026 11:59:59 +0200</pubDate>
+      <description>&lt;p&gt;Goście:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;kierownik badania dr hab. Marek Wypych z Pracowni Obrazowania Mózgu w Instytucie Biologii Doświadczalnej PAN im. M. Nenckiego w Warszawie&lt;/li&gt;
+&lt;li&gt;doktorantka Magdalena Pietruch, pierwsza autorka pracy w "Behaviour Research and Therapy"&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <content:encoded>&lt;p&gt;Goście:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;kierownik badania dr hab. Marek Wypych z Pracowni Obrazowania Mózgu w Instytucie Biologii Doświadczalnej PAN im. M. Nenckiego w Warszawie&lt;/li&gt;
+&lt;li&gt;doktorantka Magdalena Pietruch, pierwsza autorka pracy w "Behaviour Research and Therapy"&lt;/li&gt;
+&lt;/ul&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/08/25/beznjl/z-innej-planety-2508.mp3" length="111087360" type="audio/mpeg" />
+      <itunes:duration>00:46:17</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2025/05/20/2nw5rh/anchor_photo_front_1200x630_mikrofon-rdc-1.jpg" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Prof. Tomasz Komornicki</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=BvTU7fAwRzDEEC3MZiP7</link>
+      <guid isPermaLink="false">BvTU7fAwRzDEEC3MZiP7</guid>
+      <pubDate>Tue, 18 Aug 2026 12:00:00 +0200</pubDate>
+      <description>&lt;p&gt;O Bieszczadach i zasługach prof. Stanisława Leszczyckiego.&lt;/p&gt;
+&lt;p&gt;Gościem był prof. Tomasz Komornicki, dyrektor Instytutu Geografii i Przestrzennego Zagospodarowania PAN.&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;O Bieszczadach i zasługach prof. Stanisława Leszczyckiego.&lt;/p&gt;
+&lt;p&gt;Gościem był prof. Tomasz Komornicki, dyrektor Instytutu Geografii i Przestrzennego Zagospodarowania PAN.&lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/08/18/23hk4h/1808-z-innej-planety-20-1-premiera-komornicki-o-le.mp3" length="94342656" type="audio/mpeg" />
+      <itunes:duration>00:49:08</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2025/05/20/2nw5rh/anchor_photo_front_1200x630_mikrofon-rdc-1.jpg" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Dr hab. Marcin Szwed</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=vxxrczk2C4QH4SbTtrvH</link>
+      <guid isPermaLink="false">vxxrczk2C4QH4SbTtrvH</guid>
+      <pubDate>Tue, 11 Aug 2026 12:00:00 +0200</pubDate>
+      <description>&lt;p&gt;Jak rozwija się mózg osoby, która nigdy nie widziała? Korzystając z nowoczesnych technik obrazowania badacze z Instytutu Psychologii Uniwersytetu Jagiellońskiego oraz Instytutu Maxa Plancka ds. Nauk Poznawczych i Mózgu Człowieka w Lipsku zweryfikowali mechanizmy odpowiadające za reorganizację i zmiany strukturalne kory wzrokowej osób niewidomych od urodzenia. Gościem był dr hab. Marcin Szwed, prof. UJ.&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Jak rozwija się mózg osoby, która nigdy nie widziała? Korzystając z nowoczesnych technik obrazowania badacze z Instytutu Psychologii Uniwersytetu Jagiellońskiego oraz Instytutu Maxa Plancka ds. Nauk Poznawczych i Mózgu Człowieka w Lipsku zweryfikowali mechanizmy odpowiadające za reorganizację i zmiany strukturalne kory wzrokowej osób niewidomych od urodzenia. Gościem był dr hab. Marcin Szwed, prof. UJ.&lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/08/11/xhj16n/1108-z-innej-planety-20-1.mp3" length="88924416" type="audio/mpeg" />
+      <itunes:duration>00:46:19</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2025/05/20/2nw5rh/anchor_photo_front_1200x630_mikrofon-rdc-1.jpg" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Dr Michał Misiak</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=xgmEqNtUjnFW3AQqN880</link>
+      <guid isPermaLink="false">xgmEqNtUjnFW3AQqN880</guid>
+      <pubDate>Tue, 04 Aug 2026 12:00:00 +0200</pubDate>
+      <description>&lt;p&gt;Kanibalizm nie zniknął przypadkiem. Był zbyt kosztowny dla kultur, które go praktykowały - pokazuje nowe badanie polskich i czeskich naukowców, wśród których jest dr Michał Misiak z Uniwersytetu Wrocławskiego.&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Kanibalizm nie zniknął przypadkiem. Był zbyt kosztowny dla kultur, które go praktykowały - pokazuje nowe badanie polskich i czeskich naukowców, wśród których jest dr Michał Misiak z Uniwersytetu Wrocławskiego.&lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/08/04/vyd3wm/z-innej-planety.mp3" length="57544687" type="audio/mpeg" />
+      <itunes:duration>00:39:58</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2025/05/20/2nw5rh/anchor_photo_front_1200x630_mikrofon-rdc-1.jpg" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Zagadka lateralna</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=uR0m7zr2CuWfKXgdoAf1</link>
+      <guid isPermaLink="false">uR0m7zr2CuWfKXgdoAf1</guid>
+      <pubDate>Tue, 28 Jul 2026 12:00:00 +0200</pubDate>
+      <description>&lt;p&gt;Skoro już wybieramy się w podróże - małe i duże - po Polsce, to przecież znakomita okazja się nadarza, żeby po naszym kraju przegonić jakąś sztuczną inteligencję! Takoż i uczyniliśmy... A więc dzisiejsza zagadka lateralna dotyczy miejsc geograficznych w Polsce. Czasem są to miasta, czasem regiony i obszary geograficzne... a czasem to nawet bardzo konkretne lokacje - budynki, fragmenty rzeźby terenu etc.&lt;/p&gt;
+&lt;p&gt;Ważne, że zostały nieco zaszyfrowane w sześciu ilustracjach, tradycyjnie zresztą oznaczonych literami A do F.&lt;/p&gt;
+&lt;p&gt;Niekiedy odpowiedź jest dość łatwa do wykoncypowania, ale mamy nadzieję, że najmniej w dwóch, trzech przypadkach trzeba będzie się nieco nagimnastykować... Bo nie tylko czekamy na odgadnięte lokacje, ale też na odpowiedź, co konkretne się naszej tresowanej AI skojarzyło!&lt;/p&gt;
+&lt;p&gt;No bo w końcu o to przecież chodzi, żeby ćwiczyć te nasze szare komórki, prawda?&lt;/p&gt;
+&lt;p&gt;Odpowiedzi przyjmujemy pod numerem telefonu 22 645 90 90 jakoś tak krótko po godzinie 21:00.&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Skoro już wybieramy się w podróże - małe i duże - po Polsce, to przecież znakomita okazja się nadarza, żeby po naszym kraju przegonić jakąś sztuczną inteligencję! Takoż i uczyniliśmy... A więc dzisiejsza zagadka lateralna dotyczy miejsc geograficznych w Polsce. Czasem są to miasta, czasem regiony i obszary geograficzne... a czasem to nawet bardzo konkretne lokacje - budynki, fragmenty rzeźby terenu etc.&lt;/p&gt;
+&lt;p&gt;Ważne, że zostały nieco zaszyfrowane w sześciu ilustracjach, tradycyjnie zresztą oznaczonych literami A do F.&lt;/p&gt;
+&lt;p&gt;Niekiedy odpowiedź jest dość łatwa do wykoncypowania, ale mamy nadzieję, że najmniej w dwóch, trzech przypadkach trzeba będzie się nieco nagimnastykować... Bo nie tylko czekamy na odgadnięte lokacje, ale też na odpowiedź, co konkretne się naszej tresowanej AI skojarzyło!&lt;/p&gt;
+&lt;p&gt;No bo w końcu o to przecież chodzi, żeby ćwiczyć te nasze szare komórki, prawda?&lt;/p&gt;
+&lt;p&gt;Odpowiedzi przyjmujemy pod numerem telefonu 22 645 90 90 jakoś tak krótko po godzinie 21:00.&lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/07/28/wprwre/zagadka-lateralna.mp3" length="73513735" type="audio/mpeg" />
+      <itunes:duration>00:51:03</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2026/07/28/srgwiu/anchor_photo_front_1200x630_2026-07-28-miejsca-w-polsce.png" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Mariusz Meus</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=IHh0dgvYsNW3WirDJJ65</link>
+      <guid isPermaLink="false">IHh0dgvYsNW3WirDJJ65</guid>
+      <pubDate>Tue, 28 Jul 2026 11:59:59 +0200</pubDate>
+      <description>&lt;p&gt;Gościem jest Mariusz Meus - Pan Południk, Stowarzyszenie Geodetów Polskich.&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Gościem jest Mariusz Meus - Pan Południk, Stowarzyszenie Geodetów Polskich.&lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/07/28/bhwpye/z-innej-planety.mp3" length="75083416" type="audio/mpeg" />
+      <itunes:duration>00:52:08</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2025/06/02/kb9ofr/anchor_photo_front_1200x630_mikrofon-rdc.jpg" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
