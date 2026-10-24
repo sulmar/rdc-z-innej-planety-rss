@@ -6,6 +6,8 @@ Kanał RSS audycji **„Z innej planety”** (Polskie Radio RDC) do słuchania w
 >
 > Więcej na RDC: https://www.rdc.pl/public/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=1SsoWBCT5DJvsOjwPqBg
 
+*Od autora:* jako wierny słuchacz stworzyłem ten kanał RSS, żeby popularyzować audycję „Z innej planety”, która przynosi mi skojarzenia z programem „Sonda”. Kanał jest prywatną, niekomercyjną inicjatywą. Wszystkie prawa do audycji należą do Polskiego Radia RDC.
+
 **Adres kanału:** https://www.sulmar.pl/rdc-z-innej-planety-rss/feed.xml
 
 Kanał jest synchronizowany automatycznie raz w tygodniu, **we wtorek po zakończeniu audycji** (o 23:59).
