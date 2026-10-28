@@ -6314,6 +6314,20 @@
       "mp3_url": "https://www.rdc.pl/brepo/panel_repo/2022/07/21/m6liho/2021_09_z-innej-planety-2021-09-07-21_10_44.mp3",
       "title": "Z innej planety: geneza gorączki"
     },
+    "I9y4uCXYwasmlfyQfPbR": {
+      "author": "Łukasz Badowski",
+      "checked_at": "2026-10-28T01:51:51+00:00",
+      "date": "2026-10-27",
+      "day_rank": 1,
+      "description_html": "<p>Nagroda Nobla z fizyki  została przyznana za badanie wysokoenergetycznych cząstek neutrino pochodzących spoza Układu Słonecznego.</p>\n<p>Gość:</p>\n<ul>\n<li>prof. dr hab. Ewa Rondio, zastępca dyrektora ds. naukowych Narodowego Centrum Badań Jądrowych, kierująca w NCBJ projektem Hyper-Kamiokande</li>\n</ul>\n<p> </p>",
+      "duration_s": 2808,
+      "first_seen": "2026-10-28T01:51:48+00:00",
+      "id": "I9y4uCXYwasmlfyQfPbR",
+      "image": "https://www.rdc.pl/brepo/panel_repo/2026/10/27/iioev1/contain-540-768-max-z-innej.jpeg",
+      "mp3_length": 112301760,
+      "mp3_url": "https://www.rdc.pl/brepo/panel_repo/2026/10/27/v9wmvs/z-innej-planety-27102026.mp3",
+      "title": "Nagroda Nobla z fizyki przyznana"
+    },
     "IBY798kBaI59nEx7wpjo": {
       "author": "Łukasz Badowski",
       "checked_at": "2026-10-24T18:37:40+00:00",
@@ -7321,6 +7335,20 @@
       "mp3_length": 98391215,
       "mp3_url": "https://www.rdc.pl/brepo/panel_repo/2022/09/06/iftdqm/z-innej-6-wrzesien-2022-20-08-44.mp3",
       "title": "Kalendarium naukowe"
+    },
+    "LSCA29sEmSbl6psRZgO8": {
+      "author": "Łukasz Badowski",
+      "checked_at": "2026-10-28T01:51:48+00:00",
+      "date": "2026-10-27",
+      "day_rank": 0,
+      "description_html": "<p>Dzisiejsza zagadka lateralna poświęcona jest rzeczom najmniejszym. Uwaga – najmniejszym, nie znaczy wcale mało ważnym! Wręcz przeciwnie, powiedziałbym! Rzeczy małe (a nawet najmniejsze) bywają bowiem bardzo istotne. </p>\n<p>Dlatego w dzisiejszej zagadce postanowiliśmy tym właśnie rzeczom małym, poślednim i mikroskopijnym poświęcić znacznie więcej uwagi. My, to znaczy… oczywiście… nasza tresowana Sztuczna inteligencja. To właśnie ona wzięła na warsztat hasła dzisiejszej zagadki i je lateralnie zinterpretowała. A wyniki tejże interpretacji możecie teraz Państwo podziwiać na ilustracjach oznaczonych tradycyjnie literami A do F.</p>\n<p>Odgadywanie zagadek wymaga dotarcia do sedna tych lateralnych skojarzeń i podania nam w odpowiedzi, co było źródłem prompta dla AI.</p>",
+      "duration_s": 2978,
+      "first_seen": "2026-10-28T01:51:44+00:00",
+      "id": "LSCA29sEmSbl6psRZgO8",
+      "image": "https://www.rdc.pl/brepo/panel_repo/2025/05/20/2nw5rh/anchor_photo_front_1200x630_mikrofon-rdc-1.jpg",
+      "mp3_length": 119123520,
+      "mp3_url": "https://www.rdc.pl/brepo/panel_repo/2026/10/27/rxzfv3/zagadki-lateralne-27102026.mp3",
+      "title": "Zagadki lateralne"
     },
     "LTD5Ai3BbmZZSyCTbhkQ": {
       "author": "Łukasz Badowski",
@@ -22252,7 +22280,7 @@
     "id": "fY7TF0S0caRGGuoABNJe",
     "image": "https://www.rdc.pl/brepo/panel_repo/2025/10/02/2p9tlj/zinnejplanety.png",
     "link": "https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe",
-    "pages_count": 159,
+    "pages_count": 160,
     "slug": "z-innej-planety",
     "title": "Z innej planety"
   }
