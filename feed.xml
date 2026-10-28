@@ -6,7 +6,7 @@
     <description>Jest to cykl audycji popularyzujący naukę na antenie RDC. Trzygodzinna opowieść „z innej planety”. Nasze studio odwiedzają goście – najczęściej naukowcy. Prowadzimy też Radiowy Instytut Badań Akustycznych, w którym rozkładamy dźwięk na czynniki pierwsze. Natomiast w ostatniej godzinie rozwiązujemy kryminalną zagadkę lateralną. Zaprasza Łukasz Badowski.</description>
     <language>pl</language>
     <atom:link href="https://www.sulmar.pl/rdc-z-innej-planety-rss/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 20 Oct 2026 12:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 12:00:00 +0100</lastBuildDate>
     <generator>rdc-podcast-feed</generator>
     <itunes:author>Polskie Radio RDC</itunes:author>
     <itunes:summary>Jest to cykl audycji popularyzujący naukę na antenie RDC. Trzygodzinna opowieść „z innej planety”. Nasze studio odwiedzają goście – najczęściej naukowcy. Prowadzimy też Radiowy Instytut Badań Akustycznych, w którym rozkładamy dźwięk na czynniki pierwsze. Natomiast w ostatniej godzinie rozwiązujemy kryminalną zagadkę lateralną. Zaprasza Łukasz Badowski.</itunes:summary>
@@ -20,6 +20,48 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:block>Yes</itunes:block>
+    <item>
+      <title>Zagadki lateralne</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=LSCA29sEmSbl6psRZgO8</link>
+      <guid isPermaLink="false">LSCA29sEmSbl6psRZgO8</guid>
+      <pubDate>Tue, 27 Oct 2026 12:00:00 +0100</pubDate>
+      <description>&lt;p&gt;Dzisiejsza zagadka lateralna poświęcona jest rzeczom najmniejszym. Uwaga – najmniejszym, nie znaczy wcale mało ważnym! Wręcz przeciwnie, powiedziałbym! Rzeczy małe (a nawet najmniejsze) bywają bowiem bardzo istotne. &lt;/p&gt;
+&lt;p&gt;Dlatego w dzisiejszej zagadce postanowiliśmy tym właśnie rzeczom małym, poślednim i mikroskopijnym poświęcić znacznie więcej uwagi. My, to znaczy… oczywiście… nasza tresowana Sztuczna inteligencja. To właśnie ona wzięła na warsztat hasła dzisiejszej zagadki i je lateralnie zinterpretowała. A wyniki tejże interpretacji możecie teraz Państwo podziwiać na ilustracjach oznaczonych tradycyjnie literami A do F.&lt;/p&gt;
+&lt;p&gt;Odgadywanie zagadek wymaga dotarcia do sedna tych lateralnych skojarzeń i podania nam w odpowiedzi, co było źródłem prompta dla AI.&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Dzisiejsza zagadka lateralna poświęcona jest rzeczom najmniejszym. Uwaga – najmniejszym, nie znaczy wcale mało ważnym! Wręcz przeciwnie, powiedziałbym! Rzeczy małe (a nawet najmniejsze) bywają bowiem bardzo istotne. &lt;/p&gt;
+&lt;p&gt;Dlatego w dzisiejszej zagadce postanowiliśmy tym właśnie rzeczom małym, poślednim i mikroskopijnym poświęcić znacznie więcej uwagi. My, to znaczy… oczywiście… nasza tresowana Sztuczna inteligencja. To właśnie ona wzięła na warsztat hasła dzisiejszej zagadki i je lateralnie zinterpretowała. A wyniki tejże interpretacji możecie teraz Państwo podziwiać na ilustracjach oznaczonych tradycyjnie literami A do F.&lt;/p&gt;
+&lt;p&gt;Odgadywanie zagadek wymaga dotarcia do sedna tych lateralnych skojarzeń i podania nam w odpowiedzi, co było źródłem prompta dla AI.&lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/10/27/rxzfv3/zagadki-lateralne-27102026.mp3" length="119123520" type="audio/mpeg" />
+      <itunes:duration>00:49:38</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2025/05/20/2nw5rh/anchor_photo_front_1200x630_mikrofon-rdc-1.jpg" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nagroda Nobla z fizyki przyznana</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=I9y4uCXYwasmlfyQfPbR</link>
+      <guid isPermaLink="false">I9y4uCXYwasmlfyQfPbR</guid>
+      <pubDate>Tue, 27 Oct 2026 11:59:59 +0100</pubDate>
+      <description>&lt;p&gt;Nagroda Nobla z fizyki  została przyznana za badanie wysokoenergetycznych cząstek neutrino pochodzących spoza Układu Słonecznego.&lt;/p&gt;
+&lt;p&gt;Gość:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;prof. dr hab. Ewa Rondio, zastępca dyrektora ds. naukowych Narodowego Centrum Badań Jądrowych, kierująca w NCBJ projektem Hyper-Kamiokande&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Nagroda Nobla z fizyki  została przyznana za badanie wysokoenergetycznych cząstek neutrino pochodzących spoza Układu Słonecznego.&lt;/p&gt;
+&lt;p&gt;Gość:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;prof. dr hab. Ewa Rondio, zastępca dyrektora ds. naukowych Narodowego Centrum Badań Jądrowych, kierująca w NCBJ projektem Hyper-Kamiokande&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/10/27/v9wmvs/z-innej-planety-27102026.mp3" length="112301760" type="audio/mpeg" />
+      <itunes:duration>00:46:48</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2026/10/27/iioev1/contain-540-768-max-z-innej.jpeg" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Zagadka lateralna</title>
       <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=vUUo7CT1dEeqCtvPozVw</link>
