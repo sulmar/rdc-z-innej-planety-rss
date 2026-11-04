@@ -6,7 +6,7 @@
     <description>Jest to cykl audycji popularyzujący naukę na antenie RDC. Trzygodzinna opowieść „z innej planety”. Nasze studio odwiedzają goście – najczęściej naukowcy. Prowadzimy też Radiowy Instytut Badań Akustycznych, w którym rozkładamy dźwięk na czynniki pierwsze. Natomiast w ostatniej godzinie rozwiązujemy kryminalną zagadkę lateralną. Zaprasza Łukasz Badowski.</description>
     <language>pl</language>
     <atom:link href="https://www.sulmar.pl/rdc-z-innej-planety-rss/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 27 Oct 2026 12:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 12:00:00 +0100</lastBuildDate>
     <generator>rdc-podcast-feed</generator>
     <itunes:author>Polskie Radio RDC</itunes:author>
     <itunes:summary>Jest to cykl audycji popularyzujący naukę na antenie RDC. Trzygodzinna opowieść „z innej planety”. Nasze studio odwiedzają goście – najczęściej naukowcy. Prowadzimy też Radiowy Instytut Badań Akustycznych, w którym rozkładamy dźwięk na czynniki pierwsze. Natomiast w ostatniej godzinie rozwiązujemy kryminalną zagadkę lateralną. Zaprasza Łukasz Badowski.</itunes:summary>
@@ -20,6 +20,50 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:block>Yes</itunes:block>
+    <item>
+      <title>Zagadka lateralna</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=uqbebxgNn6KA51ZSQrEZ</link>
+      <guid isPermaLink="false">uqbebxgNn6KA51ZSQrEZ</guid>
+      <pubDate>Tue, 03 Nov 2026 12:00:00 +0100</pubDate>
+      <description>&lt;p&gt;Pewnie spodziewacie się Państwo w dzisiejszej zagadce jakichś Świętych (Wszystkich... no albo przynajmniej Niektórych)? Albo macie Państwo nadzieję na helołinowe ghule i zombie? Też pudło!&lt;/p&gt;
+&lt;p&gt;Otóż dzisiejszą zagadkę lateralną sponsoruje... BRZDĄC! W końcu przed godziną żeśmy o nim mówili, c'nie? No więc chodzi o ciasta... Ewentualnie desery... Albo inne łakocie... W zasadzie wszystko, co słodkie.&lt;/p&gt;
+&lt;p&gt;I takich sześć słodkich przekąsek nasza tresowana Sztuczna Inteligencja ukryła w ilustracjach oznaczonych literami A do F.&lt;/p&gt;
+&lt;p&gt;Państwa zadaniem jest wysilić te bardziej lateralne fragmenty swych zwojów mózgowych i odgadnąć, jakież to ciasta, desery lub słodycze owa Sztuczna Inteligencja mogła mieć na myśli.&lt;/p&gt;
+&lt;p&gt;Potem... to już prosto! Wystarczy zadzwonić na numer 22 645 90 90 i podać proponowaną odpowiedź!&lt;/p&gt;
+&lt;p&gt;My oczywiście już na Państwa czekamy. Po godzinie 21:00 zaczniemy zabawę...&lt;/p&gt;
+&lt;p&gt;Zapraszamy!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://www.rdc.pl/brepo/panel_repo/2026/11/03/x571n1/contain-1000-1000-max-2026-11-03-ciasta.png" style="width: 100%;"/&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Pewnie spodziewacie się Państwo w dzisiejszej zagadce jakichś Świętych (Wszystkich... no albo przynajmniej Niektórych)? Albo macie Państwo nadzieję na helołinowe ghule i zombie? Też pudło!&lt;/p&gt;
+&lt;p&gt;Otóż dzisiejszą zagadkę lateralną sponsoruje... BRZDĄC! W końcu przed godziną żeśmy o nim mówili, c'nie? No więc chodzi o ciasta... Ewentualnie desery... Albo inne łakocie... W zasadzie wszystko, co słodkie.&lt;/p&gt;
+&lt;p&gt;I takich sześć słodkich przekąsek nasza tresowana Sztuczna Inteligencja ukryła w ilustracjach oznaczonych literami A do F.&lt;/p&gt;
+&lt;p&gt;Państwa zadaniem jest wysilić te bardziej lateralne fragmenty swych zwojów mózgowych i odgadnąć, jakież to ciasta, desery lub słodycze owa Sztuczna Inteligencja mogła mieć na myśli.&lt;/p&gt;
+&lt;p&gt;Potem... to już prosto! Wystarczy zadzwonić na numer 22 645 90 90 i podać proponowaną odpowiedź!&lt;/p&gt;
+&lt;p&gt;My oczywiście już na Państwa czekamy. Po godzinie 21:00 zaczniemy zabawę...&lt;/p&gt;
+&lt;p&gt;Zapraszamy!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://www.rdc.pl/brepo/panel_repo/2026/11/03/x571n1/contain-1000-1000-max-2026-11-03-ciasta.png" style="width: 100%;"/&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/11/03/qh4bxf/zagadka-lateralna-311.mp3" length="73146467" type="audio/mpeg" />
+      <itunes:duration>00:50:48</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2026/11/03/x571n1/anchor_photo_front_1200x630_2026-11-03-ciasta.png" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Czy godzina spędzona rano przed tabletem może wpływać na rozwój dziecka?</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=INVhTgzPYwbWgCOHrt6m</link>
+      <guid isPermaLink="false">INVhTgzPYwbWgCOHrt6m</guid>
+      <pubDate>Tue, 03 Nov 2026 11:59:59 +0100</pubDate>
+      <description>&lt;p&gt;Czy godzina spędzona rano przed tabletem może wpływać na rozwój dziecka?&lt;/p&gt;
+&lt;p&gt;Gościnią była dr Magdalena Rowicka z Akademii Pedagogiki Specjalnej im. Marii Grzegorzewskiej, kierowniczka projektu "Brzdąc w sieci 4.0", w ramach cyklu badań pod tym tytułem.&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Czy godzina spędzona rano przed tabletem może wpływać na rozwój dziecka?&lt;/p&gt;
+&lt;p&gt;Gościnią była dr Magdalena Rowicka z Akademii Pedagogiki Specjalnej im. Marii Grzegorzewskiej, kierowniczka projektu "Brzdąc w sieci 4.0", w ramach cyklu badań pod tym tytułem.&lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/11/03/eiaxbi/z-innej-planety-311.mp3" length="72540630" type="audio/mpeg" />
+      <itunes:duration>00:50:23</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2026/11/03/l46c8j/anchor_photo_front_1200x630_img-6636.jpeg" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Zagadki lateralne</title>
       <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=LSCA29sEmSbl6psRZgO8</link>
@@ -46,13 +90,13 @@
       <description>&lt;p&gt;Nagroda Nobla z fizyki  została przyznana za badanie wysokoenergetycznych cząstek neutrino pochodzących spoza Układu Słonecznego.&lt;/p&gt;
 &lt;p&gt;Gość:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;prof. dr hab. Ewa Rondio, zastępca dyrektora ds. naukowych Narodowego Centrum Badań Jądrowych, kierująca w NCBJ projektem Hyper-Kamiokande&lt;/li&gt;
+&lt;li&gt;prof. dr hab. Ewa Rondio, Zakład Fizyki Wielkich Energii Narodowego Centrum Badań Jądrowych, kierująca w NCBJ projektem Hyper-Kamiokande&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt; &lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;Nagroda Nobla z fizyki  została przyznana za badanie wysokoenergetycznych cząstek neutrino pochodzących spoza Układu Słonecznego.&lt;/p&gt;
 &lt;p&gt;Gość:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;prof. dr hab. Ewa Rondio, zastępca dyrektora ds. naukowych Narodowego Centrum Badań Jądrowych, kierująca w NCBJ projektem Hyper-Kamiokande&lt;/li&gt;
+&lt;li&gt;prof. dr hab. Ewa Rondio, Zakład Fizyki Wielkich Energii Narodowego Centrum Badań Jądrowych, kierująca w NCBJ projektem Hyper-Kamiokande&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt; &lt;/p&gt;</content:encoded>
       <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/10/27/v9wmvs/z-innej-planety-27102026.mp3" length="112301760" type="audio/mpeg" />
