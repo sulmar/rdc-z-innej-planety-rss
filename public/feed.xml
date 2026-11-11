@@ -6,7 +6,7 @@
     <description>Jest to cykl audycji popularyzujący naukę na antenie RDC. Trzygodzinna opowieść „z innej planety”. Nasze studio odwiedzają goście – najczęściej naukowcy. Prowadzimy też Radiowy Instytut Badań Akustycznych, w którym rozkładamy dźwięk na czynniki pierwsze. Natomiast w ostatniej godzinie rozwiązujemy kryminalną zagadkę lateralną. Zaprasza Łukasz Badowski.</description>
     <language>pl</language>
     <atom:link href="https://www.sulmar.pl/rdc-z-innej-planety-rss/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 03 Nov 2026 12:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 12:00:00 +0100</lastBuildDate>
     <generator>rdc-podcast-feed</generator>
     <itunes:author>Polskie Radio RDC</itunes:author>
     <itunes:summary>Jest to cykl audycji popularyzujący naukę na antenie RDC. Trzygodzinna opowieść „z innej planety”. Nasze studio odwiedzają goście – najczęściej naukowcy. Prowadzimy też Radiowy Instytut Badań Akustycznych, w którym rozkładamy dźwięk na czynniki pierwsze. Natomiast w ostatniej godzinie rozwiązujemy kryminalną zagadkę lateralną. Zaprasza Łukasz Badowski.</itunes:summary>
@@ -20,6 +20,22 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:block>Yes</itunes:block>
+    <item>
+      <title>Czy z nadstałego światła będą miecze Jedi?</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=7yLYbYIT7HpHoElSESJd</link>
+      <guid isPermaLink="false">7yLYbYIT7HpHoElSESJd</guid>
+      <pubDate>Tue, 10 Nov 2026 12:00:00 +0100</pubDate>
+      <description>&lt;p&gt;Czy z nadstałego światła będą miecze Jedi? Takie pytanie zadają fizycy z Uniwersytetu Warszawskiego.&lt;/p&gt;
+&lt;p&gt;O "krystalicznym płynie ze światła" opowiedział prof. Jacek Szczytko z Wydziału Fizyki UW, lider międzynarodowego zespołu badań.&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Czy z nadstałego światła będą miecze Jedi? Takie pytanie zadają fizycy z Uniwersytetu Warszawskiego.&lt;/p&gt;
+&lt;p&gt;O "krystalicznym płynie ze światła" opowiedział prof. Jacek Szczytko z Wydziału Fizyki UW, lider międzynarodowego zespołu badań.&lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/11/10/yye5lq/z-innej-planety-1011.mp3" length="75808189" type="audio/mpeg" />
+      <itunes:duration>00:52:39</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2026/11/10/g1jpe1/anchor_photo_front_1200x630_img-6680.jpeg" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Zagadka lateralna</title>
       <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=uqbebxgNn6KA51ZSQrEZ</link>
