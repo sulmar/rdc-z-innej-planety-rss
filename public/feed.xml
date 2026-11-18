@@ -6,7 +6,7 @@
     <description>Jest to cykl audycji popularyzujący naukę na antenie RDC. Trzygodzinna opowieść „z innej planety”. Nasze studio odwiedzają goście – najczęściej naukowcy. Prowadzimy też Radiowy Instytut Badań Akustycznych, w którym rozkładamy dźwięk na czynniki pierwsze. Natomiast w ostatniej godzinie rozwiązujemy kryminalną zagadkę lateralną. Zaprasza Łukasz Badowski.</description>
     <language>pl</language>
     <atom:link href="https://www.sulmar.pl/rdc-z-innej-planety-rss/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 10 Nov 2026 12:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 12:00:00 +0100</lastBuildDate>
     <generator>rdc-podcast-feed</generator>
     <itunes:author>Polskie Radio RDC</itunes:author>
     <itunes:summary>Jest to cykl audycji popularyzujący naukę na antenie RDC. Trzygodzinna opowieść „z innej planety”. Nasze studio odwiedzają goście – najczęściej naukowcy. Prowadzimy też Radiowy Instytut Badań Akustycznych, w którym rozkładamy dźwięk na czynniki pierwsze. Natomiast w ostatniej godzinie rozwiązujemy kryminalną zagadkę lateralną. Zaprasza Łukasz Badowski.</itunes:summary>
@@ -21,10 +21,76 @@
     <itunes:type>episodic</itunes:type>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Zagadka lateralna</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=Gy4NqxNBWr9cR9P6lX9x</link>
+      <guid isPermaLink="false">Gy4NqxNBWr9cR9P6lX9x</guid>
+      <pubDate>Tue, 17 Nov 2026 12:00:00 +0100</pubDate>
+      <description>&lt;p&gt;Dziś zagadce patronuje liczba OSIEM. Jak się okazuje, wcale nie tak prosto było zgromadzić skojarzenia do tej akurat liczby. Pięć, siedem, czy nawet trzynaście łatwiej byłoby ograć sztucznej inteligencji… Na szczęście tym razem wystarczyło zrobić ankietę wśród przypadkowych respondentów i voila! Sześć skojarzeń gotowych. Nasza tresowana AI jedynie ubrała je w postać wizualną.&lt;/p&gt;
+&lt;p&gt;A więc…&lt;/p&gt;
+&lt;p&gt;Pod każdą literą od A do F kryje się jedno lateralne skojarzenie do liczby 8.&lt;/p&gt;
+&lt;p&gt;Należy dodzwonić się do studia, podać odpowiedź – ukryte w obrazku hasło – oraz wytłumaczenie, w jaki sposób ilustracja jest z nim związana.&lt;/p&gt;
+&lt;p&gt;W naszym numerze telefonu akurat nie ma żadnej ósemki, ale na wszelki wypadek podajemy: 22 645 90 90. Po godzinie 21:00 zaczniemy odbierać telefony.&lt;/p&gt;
+&lt;p&gt;Powodzenia!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" data-pagespeed-url-hash="1752466013" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" src="https://www.rdc.pl/brepo/panel_repo/2026/11/17/x0t7jf/contain-1000-1000-max-2026-11-17-osiem.png" style="width: 100%;"/&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Dziś zagadce patronuje liczba OSIEM. Jak się okazuje, wcale nie tak prosto było zgromadzić skojarzenia do tej akurat liczby. Pięć, siedem, czy nawet trzynaście łatwiej byłoby ograć sztucznej inteligencji… Na szczęście tym razem wystarczyło zrobić ankietę wśród przypadkowych respondentów i voila! Sześć skojarzeń gotowych. Nasza tresowana AI jedynie ubrała je w postać wizualną.&lt;/p&gt;
+&lt;p&gt;A więc…&lt;/p&gt;
+&lt;p&gt;Pod każdą literą od A do F kryje się jedno lateralne skojarzenie do liczby 8.&lt;/p&gt;
+&lt;p&gt;Należy dodzwonić się do studia, podać odpowiedź – ukryte w obrazku hasło – oraz wytłumaczenie, w jaki sposób ilustracja jest z nim związana.&lt;/p&gt;
+&lt;p&gt;W naszym numerze telefonu akurat nie ma żadnej ósemki, ale na wszelki wypadek podajemy: 22 645 90 90. Po godzinie 21:00 zaczniemy odbierać telefony.&lt;/p&gt;
+&lt;p&gt;Powodzenia!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" data-pagespeed-url-hash="1752466013" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" src="https://www.rdc.pl/brepo/panel_repo/2026/11/17/x0t7jf/contain-1000-1000-max-2026-11-17-osiem.png" style="width: 100%;"/&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/11/17/2kibl8/zagadka-1711.mp3" length="73693626" type="audio/mpeg" />
+      <itunes:duration>00:51:11</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2026/11/17/x0t7jf/contain-540-768-max-2026-11-17-osiem.png" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Niezwykła Topologia białka EIGHT</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=PCQRbe1JRz4W72izYBtJ</link>
+      <guid isPermaLink="false">PCQRbe1JRz4W72izYBtJ</guid>
+      <pubDate>Tue, 17 Nov 2026 11:59:59 +0100</pubDate>
+      <description>&lt;p&gt;Niezwykła topologia białka EIGHT opisana przez zespół z Uniwersytetu Warszawskiego.&lt;/p&gt;
+&lt;p&gt;Gościni: prof. Joanna Sułkowska z Centrum Nowych Technologii Uniwersytetu Warszawskiego.&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Niezwykła topologia białka EIGHT opisana przez zespół z Uniwersytetu Warszawskiego.&lt;/p&gt;
+&lt;p&gt;Gościni: prof. Joanna Sułkowska z Centrum Nowych Technologii Uniwersytetu Warszawskiego.&lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/11/17/ghggls/z-innej-planety-1711.mp3" length="76608412" type="audio/mpeg" />
+      <itunes:duration>00:53:12</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2026/11/17/uf72cj/anchor_photo_front_1200x630_img-6724.jpeg" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Zagadka lateralna</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=b7A6CiRkXlt9M1BddU00</link>
+      <guid isPermaLink="false">b7A6CiRkXlt9M1BddU00</guid>
+      <pubDate>Tue, 10 Nov 2026 12:00:00 +0100</pubDate>
+      <description>&lt;p&gt;Na wstępie od razu może się wytłumaczę... Ta zagadka wcale nie miała być taka poznańska! Jakoś tak samo wyszło...&lt;/p&gt;
+&lt;p&gt;A dokładniej to naszej tresowanej Sztucznej Inteligencji, którą - oprócz najwyraźniej rogali świętomarcińskich - nakarmiliśmy dziś sześcioma hasłami dotyczącymi kryształów. Ale nie byle jakich kryształów! Chodzi nam o kamienie jubilerskie... Półszlachetne co prawda, ale zawsze!&lt;/p&gt;
+&lt;p&gt;Pod literami A do F kryje się więc sześć nazw minerałów, będących obiektami średniobudżetowych westchnień spragnionych biżuterii dam.&lt;/p&gt;
+&lt;p&gt;Nasz telefon 22 645 90 90 uruchomimy po godzinie 21:00, a wtedy będzie można się dodzwaniać i zgadywać, o jakież to kamienie zapytaliśmy naszą AI.&lt;/p&gt;
+&lt;p&gt;Pozdrawiamy!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://www.rdc.pl/brepo/panel_repo/2026/11/10/cmwnce/contain-1000-1000-max-2026-11-10-drogie-kamienie.png" style="width: 100%;"/&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Na wstępie od razu może się wytłumaczę... Ta zagadka wcale nie miała być taka poznańska! Jakoś tak samo wyszło...&lt;/p&gt;
+&lt;p&gt;A dokładniej to naszej tresowanej Sztucznej Inteligencji, którą - oprócz najwyraźniej rogali świętomarcińskich - nakarmiliśmy dziś sześcioma hasłami dotyczącymi kryształów. Ale nie byle jakich kryształów! Chodzi nam o kamienie jubilerskie... Półszlachetne co prawda, ale zawsze!&lt;/p&gt;
+&lt;p&gt;Pod literami A do F kryje się więc sześć nazw minerałów, będących obiektami średniobudżetowych westchnień spragnionych biżuterii dam.&lt;/p&gt;
+&lt;p&gt;Nasz telefon 22 645 90 90 uruchomimy po godzinie 21:00, a wtedy będzie można się dodzwaniać i zgadywać, o jakież to kamienie zapytaliśmy naszą AI.&lt;/p&gt;
+&lt;p&gt;Pozdrawiamy!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://www.rdc.pl/brepo/panel_repo/2026/11/10/cmwnce/contain-1000-1000-max-2026-11-10-drogie-kamienie.png" style="width: 100%;"/&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/11/11/fhtvvb/zagadka-1011.mp3" length="74709292" type="audio/mpeg" />
+      <itunes:duration>00:51:53</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2026/11/10/cmwnce/contain-540-768-max-2026-11-10-drogie-kamienie.png" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Czy z nadstałego światła będą miecze Jedi?</title>
       <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=7yLYbYIT7HpHoElSESJd</link>
       <guid isPermaLink="false">7yLYbYIT7HpHoElSESJd</guid>
-      <pubDate>Tue, 10 Nov 2026 12:00:00 +0100</pubDate>
+      <pubDate>Tue, 10 Nov 2026 11:59:59 +0100</pubDate>
       <description>&lt;p&gt;Czy z nadstałego światła będą miecze Jedi? Takie pytanie zadają fizycy z Uniwersytetu Warszawskiego.&lt;/p&gt;
 &lt;p&gt;O "krystalicznym płynie ze światła" opowiedział prof. Jacek Szczytko z Wydziału Fizyki UW, lider międzynarodowego zespołu badań.&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;Czy z nadstałego światła będą miecze Jedi? Takie pytanie zadają fizycy z Uniwersytetu Warszawskiego.&lt;/p&gt;
