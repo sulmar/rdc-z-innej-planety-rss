@@ -6,7 +6,7 @@
     <description>Jest to cykl audycji popularyzujący naukę na antenie RDC. Trzygodzinna opowieść „z innej planety”. Nasze studio odwiedzają goście – najczęściej naukowcy. Prowadzimy też Radiowy Instytut Badań Akustycznych, w którym rozkładamy dźwięk na czynniki pierwsze. Natomiast w ostatniej godzinie rozwiązujemy kryminalną zagadkę lateralną. Zaprasza Łukasz Badowski.</description>
     <language>pl</language>
     <atom:link href="https://www.sulmar.pl/rdc-z-innej-planety-rss/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 17 Nov 2026 12:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 12:00:00 +0100</lastBuildDate>
     <generator>rdc-podcast-feed</generator>
     <itunes:author>Polskie Radio RDC</itunes:author>
     <itunes:summary>Jest to cykl audycji popularyzujący naukę na antenie RDC. Trzygodzinna opowieść „z innej planety”. Nasze studio odwiedzają goście – najczęściej naukowcy. Prowadzimy też Radiowy Instytut Badań Akustycznych, w którym rozkładamy dźwięk na czynniki pierwsze. Natomiast w ostatniej godzinie rozwiązujemy kryminalną zagadkę lateralną. Zaprasza Łukasz Badowski.</itunes:summary>
@@ -20,6 +20,46 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:block>Yes</itunes:block>
+    <item>
+      <title>Zagadka lateralna</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=PfIBxNamPuOBwzrlMC3x</link>
+      <guid isPermaLink="false">PfIBxNamPuOBwzrlMC3x</guid>
+      <pubDate>Tue, 24 Nov 2026 12:00:00 +0100</pubDate>
+      <description>&lt;p&gt;Nasza audycja – pośród innych zacnych zalet – posiada oczywiście nieusuwalny walor edukacyjny. W obszarze edukacji muzycznej stanowimy absolutną forpocztę RDC, a może i nawet mediów publicznych w ogólności? Poza tym jesteśmy też wyjątkowo skromni…&lt;/p&gt;
+&lt;p&gt;Oczywiście nasz wkład pozostaje całkowicie niezauważony… To pewnie dlatego, że staramy się myśleć przede wszystkim lateralnie. Dziś też zapraszamy Państwa do zagadki lateralnej i oczywiście – z racji tematu audycji – gwarantujemy solidną dawkę edukacji muzycznej.&lt;/p&gt;
+&lt;p&gt;Tradycyjnie nasza zagadka składa się z sześciu ilustracji, wygenerowanych przez naszą tresowaną Sztuczną Inteligencję. W prompcie do każdego z obrazków (oznaczonych literami A do F) kryje się jakieś pojęcie muzyczne, które trzeba odgadnąć za pomocą lateralnych skojarzeń do zawartości ilustracji.&lt;/p&gt;
+&lt;p&gt;A jak się już odgadnie, to trzeba oczywiście zadzwonić! Numer – ten sam od lat. 22 645 90 90. &lt;/p&gt;
+&lt;p&gt;Po godzinie 21:00 zaczniemy odbierać!&lt;/p&gt;
+&lt;p&gt;Powodzenia!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://www.rdc.pl/brepo/panel_repo/2026/11/24/o8bpmi/contain-1000-1000-max-2026-11-24-edukacja-muzyczna.png" style="width: 100%;"/&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Nasza audycja – pośród innych zacnych zalet – posiada oczywiście nieusuwalny walor edukacyjny. W obszarze edukacji muzycznej stanowimy absolutną forpocztę RDC, a może i nawet mediów publicznych w ogólności? Poza tym jesteśmy też wyjątkowo skromni…&lt;/p&gt;
+&lt;p&gt;Oczywiście nasz wkład pozostaje całkowicie niezauważony… To pewnie dlatego, że staramy się myśleć przede wszystkim lateralnie. Dziś też zapraszamy Państwa do zagadki lateralnej i oczywiście – z racji tematu audycji – gwarantujemy solidną dawkę edukacji muzycznej.&lt;/p&gt;
+&lt;p&gt;Tradycyjnie nasza zagadka składa się z sześciu ilustracji, wygenerowanych przez naszą tresowaną Sztuczną Inteligencję. W prompcie do każdego z obrazków (oznaczonych literami A do F) kryje się jakieś pojęcie muzyczne, które trzeba odgadnąć za pomocą lateralnych skojarzeń do zawartości ilustracji.&lt;/p&gt;
+&lt;p&gt;A jak się już odgadnie, to trzeba oczywiście zadzwonić! Numer – ten sam od lat. 22 645 90 90. &lt;/p&gt;
+&lt;p&gt;Po godzinie 21:00 zaczniemy odbierać!&lt;/p&gt;
+&lt;p&gt;Powodzenia!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://www.rdc.pl/brepo/panel_repo/2026/11/24/o8bpmi/contain-1000-1000-max-2026-11-24-edukacja-muzyczna.png" style="width: 100%;"/&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/11/24/vhqci2/zagadka-2411.mp3" length="71338620" type="audio/mpeg" />
+      <itunes:duration>00:49:32</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2026/11/24/o8bpmi/contain-540-768-max-2026-11-24-edukacja-muzyczna.png" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>O tym, jak Polskie Radio uczyło muzyki</title>
+      <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=4May2MfO7eggVOtFEyPX</link>
+      <guid isPermaLink="false">4May2MfO7eggVOtFEyPX</guid>
+      <pubDate>Tue, 24 Nov 2026 11:59:59 +0100</pubDate>
+      <description>&lt;p&gt;Gościni: dr Katarzyna Forecka-Waśko, kierownik Laboratorium Edukacji Muzycznej (Wydział Studiów Edukacyjnych Uniwersytetu im. Adama Mickiewicza w Poznaniu), autorka książki "Rytmika w eterze. Historia audycji umuzykalniających Marii Wieman”.&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Gościni: dr Katarzyna Forecka-Waśko, kierownik Laboratorium Edukacji Muzycznej (Wydział Studiów Edukacyjnych Uniwersytetu im. Adama Mickiewicza w Poznaniu), autorka książki "Rytmika w eterze. Historia audycji umuzykalniających Marii Wieman”.&lt;/p&gt;</content:encoded>
+      <enclosure url="https://www.rdc.pl/brepo/panel_repo/2026/11/24/sq93gj/z-innej-planety-2411.mp3" length="75079647" type="audio/mpeg" />
+      <itunes:duration>00:52:08</itunes:duration>
+      <itunes:author>Łukasz Badowski</itunes:author>
+      <itunes:image href="https://www.rdc.pl/brepo/panel_repo/2025/05/20/2nw5rh/anchor_photo_front_1200x630_mikrofon-rdc-1.jpg" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Zagadka lateralna</title>
       <link>https://www.rdc.pl/podcast/z-innej-planety_fY7TF0S0caRGGuoABNJe?episode=Gy4NqxNBWr9cR9P6lX9x</link>
